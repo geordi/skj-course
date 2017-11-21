@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.http import HttpResponse
+from django.urls import reverse
 
 from .models import Post, Comment
 from .forms import CommentForm
@@ -29,3 +30,18 @@ def addcomment(request, post_id):
             comment.save()
 
             return redirect('post', post_id=post.id)
+
+def search(request):
+    return render(request, 'weblog/search.html', {})
+
+def livesearch(request, word, sid):
+    posts = Post.objects.filter(title__icontains=word)
+
+    if len(posts) > 0:
+        response = ''
+        for p in posts:
+            response += '<a href="' + reverse('post', args=(p.id,)) + '">{}</a><br/>'.format(p.title)
+    else:
+        response = 'no suggestion'
+
+    return HttpResponse(response)
