@@ -16,6 +16,11 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
+import weblog.views
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^$', weblog.views.index, name='index'),
+    url(r'^post/(?P<post_id>\d+)$', weblog.views.post, name='post'),
+    url(r'^post/(?P<post_id>\d+)/addcomment$', weblog.views.addcomment, name='addcomment'),
 ]
