@@ -1,23 +1,24 @@
 var xmlhttp;
 
 function showResult( str ) {
-    if ( str.length == 0 ) {
+    if ( str ) {
         document.getElementById( "livesearch" ).innerHTML = "";
         document.getElementById( "livesearch" ).style.border = "0px";
         return;
     }
-
-    xmlhttp = GetXmlHttpObject();
-    if ( xmlhttp == null ) {
-        alert( "Your browser does not support XML HTTP Request" );
-        return;
+    else {
+        xmlhttp = GetXmlHttpObject();
+        if ( xmlhttp == null ) {
+            alert( "Your browser does not support XML HTTP Request" );
+            return;
+        }
+        var url = "/livesearch";
+        url = url + "/" + str;
+        url = url + "/" + Math.random();
+        xmlhttp.onreadystatechange = stateChanged;
+        xmlhttp.open( "GET", url, true );
+        xmlhttp.send( null );
     }
-    var url = "/livesearch";
-    url = url + "/" + str;
-    url = url + "/" + Math.random();
-    xmlhttp.onreadystatechange = stateChanged;
-    xmlhttp.open( "GET", url, true );
-    xmlhttp.send( null );
 }
 
 function stateChanged() {
