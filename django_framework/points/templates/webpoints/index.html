@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+    <script type="text/javascript" src="{% static 'webpoints/map.js' %}"></script>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+        var map_center = {lat: 49.363, lng: 18.6};
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: map_center
+        });
+
+        map.addListener('center_changed', function() {
+            showResult();
+        });
+      }
+
+      function addPoint(pos) {
+          var marker = new google.maps.Marker({
+              position: pos,
+              map: map
+          });
+          console.log(pos)
+          console.log(marker)
+      }
+    </script>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+  </body>
+</html>
+
