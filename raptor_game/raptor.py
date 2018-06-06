@@ -1,4 +1,5 @@
-import os, sys
+import os
+import sys
 import pygame
 from pygame.locals import *
 
@@ -7,6 +8,7 @@ DIR_DOWN = -1
 
 if not pygame.font: print('Warning, fonts disabled')
 if not pygame.mixer: print('Warning, sound disabled')
+
 
 def load_image(name, colorkey=None):
     try:
@@ -17,13 +19,13 @@ def load_image(name, colorkey=None):
     image = image.convert()
     if colorkey is not None:
         if colorkey is -1:
-            colorkey = image.get_at((0,0))
+            colorkey = image.get_at((0, 0))
         image.set_colorkey(colorkey, RLEACCEL)
     return image, image.get_rect()
 
 
 class Bullet(pygame.sprite.Sprite):
-    
+
     def __init__(self, pos, direction):
         pygame.sprite.Sprite.__init__(self)
         self.image, self.rect = load_image('images/bullet.gif', -1)
@@ -39,13 +41,13 @@ class Bullet(pygame.sprite.Sprite):
 
         self.rect.move_ip(0, move_y)
 
-        b_x, b_y = self.rect.center
+        _, b_y = self.rect.center
         if b_y <= 0:
             self.kill()
 
 
 class Enemy(pygame.sprite.Sprite):
-    
+
     def __init__(self, pos):
         pygame.sprite.Sprite.__init__(self)
         self.image, self.rect = load_image('images/enemy1.gif', -1)
@@ -62,7 +64,7 @@ class Enemy(pygame.sprite.Sprite):
 
 
 class Raptor(pygame.sprite.Sprite):
-    
+
     images = {'left': 'images/plane_turning_right_1.gif',
               'right': 'images/plane_turning_left_1.gif',
               'straight': 'images/plane.gif'}
@@ -105,8 +107,8 @@ class Raptor(pygame.sprite.Sprite):
 
 
 class RaptorMain:
-    
-    def __init__(self, width=440,height=480):
+
+    def __init__(self, width=440, height=480):
         pygame.init()
         self.width = width
         self.height = height
@@ -117,7 +119,7 @@ class RaptorMain:
         self.screen.blit(self.background, (0, 0))
         self.raptor_sprites.draw(self.screen)
         self.enemy_sprites.draw(self.screen)
-        if self.bullet_sprites != None:
+        if self.bullet_sprites is not None:
             self.bullet_sprites.draw(self.screen)
 
         if pygame.font:
@@ -156,10 +158,10 @@ class RaptorMain:
 
     def main_loop(self):
         pygame.key.set_repeat(500, 30)
-        
+
         self.background = pygame.Surface(self.screen.get_size())
         self.background = self.background.convert()
-        self.background.fill((0,0,0))
+        self.background.fill((0, 0, 0))
 
         self.load_sprites()
 
