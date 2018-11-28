@@ -22,4 +22,6 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('post/<int:post_id>/', views.post, name='post'),
     path('post/<int:post_id>/addcomment', views.addcomment, name='addcomment'),
+    path('search', views.search, name='search'),
+    path('livesearch/<str:word>/<int:sid1>.<int:sid2>', views.livesearch, name='livesearch'),
 ]
