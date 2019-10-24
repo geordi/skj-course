@@ -4,7 +4,7 @@
 
 - [Grading](#grading)
 - [Exercises](#exercises)
-- [Project for full time students](#project-assignmet-full-time-students)
+- [Project for full time students](#project-assignment-for-full-time-students)
 
 
 ## Labs
@@ -219,8 +219,8 @@ XML-RPC examples:
 Exercise on topics from all previous exercises.
 
 
-## Project assignment (full-time students)
-Deadline for submitting: at seminars in the week from 17.12.2018 to 21.12.2018
+## Project assignment for full-time students
+Deadline for submitting: at seminars in the week from 16.12.2019 to 20.12.2019
 
 Using the Django framework, program a simple web application that meets the following criteria:
 
