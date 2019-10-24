@@ -1,5 +1,11 @@
 # SPJA Course
 
+## Overview
+
+- [Grading](#grading)
+- [Exercises](#exercises)
+- [Project for full time students](#project-assignmet-full-time-students)
+
 
 ## Labs
 
@@ -33,8 +39,10 @@ You must earn at least 10 points from this task.
 
 <!-- In the final week will also take the final test, which you must pass. You can earn up to 40 points for this test. You must get at least 15 points. -->
 
+
 ### Final test
 The final test will take place in the credit week and you will be informed about it in advance on the lecture and this website. The term is NOT listed in Edison.
+
 
 ### Summary
 <table>
@@ -43,6 +51,7 @@ The final test will take place in the credit week and you will be informed about
 <tr><td>Submission of the project in Django</td><td>30</td><td>10</td><td>Can be worked out in pairs.</td></tr>
 <tr><td>Final test</td><td>40</td><td>15</td></tr>
 </table>
+
 
 ## Additional resources
 
@@ -167,38 +176,50 @@ The study material is the text stated at the beginning of the page.
 Slides to object-oriented programming .
 -->
 
-<!--
-Exercise 6
+
+### Exercise 6
+
 Scoring exercises on topics discussed at 3.-5. lecture: Object-oriented programming.
 
+<!--
 The study material is the text stated at the beginning of the page.
 Slides to object-oriented programming .
+-->
 
-Exercise 7
+
+### Exercise 7
+
 Scoring exercises on topics discussed in the 6th lecture: XML
 
 Slides to process XML .
 
-Example of parsing xml file canteen.xml .
+Example of [parsing XML](labs/ex_06_xml_examples.py) file [canteen.xml](notebooks/canteen.xml).
 
-There is also a newer version of parsing using the ElementTree library and converting an xml file to Python objects .
+There is also a [newer version of parsing](notebooks/lecture_05_parsing_xml.ipynb) using the ElementTree library and [converting an xml file to Python objects](notebooks/lecture_05_xml_to_object.ipynb).
 
+<!--
 Example of searching on Twitter (not running since 2013).
+-->
 
-Exercise 8
+
+### Exercise 8
+
 Scoring exercises on topics discussed in the 8th lecture: XML-RPC
 
 The study material is the text stated at the beginning of the page.
 
-XML-RPC example:
-calc_client.py
-calc_service.py
-calc_service2.py
+XML-RPC examples:
+- [calc_client.py](calc_client.py)
+- [calc_service.py](calc_service.py)
+- [calc_service2.py](calc_service2.py)
 
-Exercise 9
+
+### Exercise 9
+
 Exercise on topics from all previous exercises.
 
-Project assignment (full-time)
+
+## Project assignment (full-time students)
 Deadline for submitting: at seminars in the week from 17.12.2018 to 21.12.2018
 
 Using the Django framework, program a simple web application that meets the following criteria:
@@ -216,71 +237,90 @@ the app may not have a geographic folder
 the application must not contain a generic view
 The application can be eg your very simple implementation of Twitter service, part of the school information system (granting credit to students), some part of the blue page (Facebook), etc.
 
-Task 1 (combined)
-Python documentation
+<!--
+## Distance Students Tasks
 
-Implement the dot_product and cross_product functions to return the scalar and vector product of the vectors. As input, consider 2D and 3D vectors, which will be represented by a sheet (in the case of a vector product, consider only 3D vectors). Be sure to treat when the vectors are not 2D or 3D, and when the functions get vectors of different lengths. In this case, the function returns None .
+### Task 1
+
+Implement the `dot_product` and `cross_product` functions to return the scalar and vector product of the vectors. As input, consider 2D and 3D vectors, which will be represented by a sheet (in the case of a vector product, consider only 3D vectors). Be sure to treat when the vectors are not 2D or 3D, and when the functions get vectors of different lengths. In this case, the function returns None .
 
 Input function: two sheets representing vectors (suppose 2D and 3D vectors)
 Function output: number (for dot_product ) or list (for cross_product )
 
 Sample:
 
-dot_product ([1,2,2], [0,1,2])
-Output: 2
+`dot_product ([1,2,2], [0,1,2])`
+Output: `2`
 
-cross_product ([1,2,2], [0,1,2])
-Output: [4, -2, 1]
+`cross_product ([1,2,2], [0,1,2])`
+Output: `[4, -2, 1]`
 
 Example of incorrect entry (not all combinations listed):
 
-cross_product ([1, 2, 0], [0, 1, 2, 4])
-Output: None
+`cross_product ([1, 2, 0], [0, 1, 2, 4])`
+Output: `None`
 
-Task 2 (combined)
-Program " make_index " and " search_by_index "
 
-Description of function "make_index":
-Creates an index of words from the input file with information on which lines are words. The index is saved to a file. A space separator is a space, period, comma, semicolon, question mark, exclamation mark, and quotation marks.
+### Task 2
+
+Program `make_index` and `search_by_index`
+
+Description of function `make_index`:
+Creates an index of words from the input file with information on which lines are words.
+The index is saved to a file.
+A space separator is a space, period, comma, semicolon, question mark, exclamation mark, and quotation marks.
 
 Index format:
-<word> <radek1> <radek2> ... <radekN>
+`<word> <line1> <line2> ... <lineN>`
 
 Each word is on a separate line.
 
 Example:
+```
 first-rate
 flexible 18
 for 12 13 20 25 27 29
+```
 
 The register shall be sorted lexicographically. Line numbers are sorted and not repeated.
 
 Input: The name of the input file and the name of the file in which the index will be stored
 Output: None
 
-Description of function "search_by_index":
+Description of function `search_by_index`:
 Uses the created index and returns the line numbers that contain the word.
 
 Input: The name of the index file and the search word
 Output: Integer list
 
 Example:
+```
 make_index ("input.txt", "index.txt")
 search_by_index ("index.txt", "Python")
-Output: [1, 3, 16, 18, 20, 21, 23, 25, 27, 29, 31, 32, 34, 36, 37, 39, 41, 42, 44, 46]
+```
+Output: `[1, 3, 16, 18, 20, 21, 23, 25, 27, 29, 31, 32, 34, 36, 37, 39, 41, 42, 44, 46]`
 
-search_by_index ("index.txt", "Kreatrix")
-Output: []
+`search_by_index ("index.txt", "Kreatrix")`
+Output: `[]`
 
 Test data:
-The test input file is available here. A test index file is also available. If you're using Windows, be careful not to break the line that is in this Unix-style file, or encode the input file.
+The test input file is available here.
+A test index file is also available.
+If you're using Windows, be careful not to break the line that is in this Unix-style file, or encode the input file.
 
 Further specification specifications
 All exceptions must be handled in the program.
 To work with sheets, use the "list comprehension" that we used a lot in exercises. Do not use map and reduce functions.
-To parse an input file and hyphenate delimiters, first edit the input file using the string.translate function (link to the documentation) , then separate the lines with a single delimiter. This will eliminate the browsing of each character on the line.
-An index file reverse lookup will be effective; you won't create a new dictionary. You just browse the file and return the result for that word. The same rules as above apply to work with the sheet.
+To parse an input file and hyphenate delimiters, first edit the input file using the `string.translate` function (link to the documentation),
+then separate the lines with a single delimiter.
+This will eliminate the browsing of each character on the line.
+An index file reverse lookup will be effective;
+you won't create a new dictionary.
+You just browse the file and return the result for that word.
+The same rules as above apply to work with the sheet.
 Use slicing where possible.
+
+
 Task 3 (combined)
 Program the Inventar and Item classes.
 

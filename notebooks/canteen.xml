@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menza>
+    <date day="Monday">
+        <meal name="Potato flat cakes">
+            <ingredient name="potatoes"/>
+            <ingredient name="flour"/>
+            <ingredient name="eggs"/>
+        </meal>
+        <meal name="Pancakes">
+            <ingredient name="milk"/>
+            <ingredient name="flour"/>
+            <ingredient name="eggs"/>
+        </meal>
+    </date>
+</menza>
