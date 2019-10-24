@@ -224,18 +224,18 @@ Deadline for submitting: at seminars in the week from 16.12.2019 to 20.12.2019
 
 Using the Django framework, program a simple web application that meets the following criteria:
 
-the application will contain at least 6 models (2 investigators) or 3 models (1 investigator), which will be interrelated
-create adequate administrative interfaces for the models
-the application will contain at least 12 view (2 solver) or 6 view (1 solver) and the associated URL that will work with the models
-view Your application will pass content to templates (you will implement 12 templates (2 solvers) or 6 templates (1 solver)
-the application will contain at least 6 forms (2 solver) or 3 forms (1 solver) (either model-bound or your own)
-the resulting application should form some logical whole, ie the individual pages will be linked to each other using links
-blogging and forum apps are not allowed as we did them in the lecture
-a gas station project is not acceptable as we did it at the exercises
-the application does not have to contain graphic elements and CSS styles
-the app may not have a geographic folder
-the application must not contain a generic view
-The application can be eg your very simple implementation of Twitter service, part of the school information system (granting credit to students), some part of the blue page (Facebook), etc.
+- the application will contain at least 6 models (team of 2 students) or 3 models (team of 1 student), which will be interrelated
+- create adequate administrative interfaces for the models
+- the application will contain at least 12 view (team of 2 students) or 6 view (team of 1 student) and the associated URL that will work with the models
+- view Your application will pass content to templates (you will implement 12 templates (team of 2 students) or 6 templates (team of 1 student)
+- the application will contain at least 6 forms (team of 2 students) or 3 forms (team of 1 student) (either model-bound or your own)
+- the resulting application should form some logical whole, ie the individual pages will be linked to each other using links
+- blogging and forum apps are not allowed as we did them in the lecture
+- a gas station project is not acceptable as we did it at the exercises
+- the application does not have to contain graphic elements and CSS styles
+- the app may not have a geographic folder
+- the application must not contain a generic view
+- The application can be eg your very simple implementation of Twitter service, part of the school information system (granting credit to students), some part of the blue page (Facebook), etc.
 
 <!--
 ## Distance Students Tasks
