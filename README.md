@@ -3,6 +3,7 @@
 ## Overview
 
 - [Grading](#grading)
+- [Books](#books)
 - [Exercises](#exercises)
 - [Project for full time students](#project-assignment-for-full-time-students)
 
@@ -41,16 +42,45 @@ You must earn at least 10 points from this task.
 
 
 ### Final test
-The final test will take place in the credit week and you will be informed about it in advance on the lecture and this website. The term is NOT listed in Edison.
+
+The final test will take place in the credit week and you will be informed about it in advance on the lecture and this website.
+The term is NOT listed in Edison.
 
 
 ### Summary
+
 <table>
 <tr><th>Task type</th><th>MAX points</th><th>MIN points</th><th>Note</th></tr>
 <tr><td>Elaboration of tasks at seminars</td><td>30 (40)</td><td>6</td><td>Scoring mentioned above.</td></tr>
 <tr><td>Submission of the project in Django</td><td>30</td><td>10</td><td>Can be worked out in pairs.</td></tr>
 <tr><td>Final test</td><td>40</td><td>15</td></tr>
 </table>
+
+
+## Books
+
+I recommend [Dive Into Python 3](https://diveintopython3.problemsolving.io/) book for reading.
+Important chapters are:
+1. Your First Python Program
+2. Native Datatypes
+3. Comprehensions
+4. Strings
+<!--Regular Expressions-->
+6. Closures & Generators
+7. Classes & Iterators
+8. Advanced Iterators
+<!--9. Unit Testing-->
+<!--10. Refactoring-->
+11. Files
+12. XML
+<!--13. Serializing Python Objects-->
+14. HTTP Web Services
+<!--Case Study: Porting chardet to Python 3
+Packaging Python Libraries
+Porting Code to Python 3 with 2to3
+Special Method Names
+Where to Go From Here-->
+D. Troubleshooting
 
 
 ## Additional resources
@@ -60,8 +90,6 @@ The final test will take place in the credit week and you will be informed about
 <!--An interesting online interactive course found at Codeacademy .-->
 
 * For the basics of programming, you can use the [Think Python](http://www.greenteapress.com/thinkpython/) book, which you can download for free.
-
-* A very nice tutorial on Python is called [Dive into Python](http://www.diveintopython.net/), which can also be used to quickly search for programming techniques in Python.
 
 Also read the [MIT's course notes](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/Syllabus/MIT6_01SCS11_notes.pdf) , which I highly recommend.
 
