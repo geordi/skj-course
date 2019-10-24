@@ -16,7 +16,7 @@ See [labs](labs) section for some scripts.
 
 You can find some codes of first few lessons in [notebooks](notebooks) section.
 
-For course notes, see [spja-skripta repo](http://github.com/geordi/spja-skripta)
+For course notes, see [spja-skripta repo](http://github.com/geordi/spja-skripta) (in Czech language)
 
 
 ## Grading
