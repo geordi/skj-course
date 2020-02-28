@@ -61,6 +61,7 @@ class RaptorMain:
         self.height = height
         self.screen = pygame.display.set_mode((self.width, self.height))
         self.score = 0
+        self.running = True
 
     def draw(self):
         self.screen.blit(self.background, (0, 0))
@@ -83,6 +84,8 @@ class RaptorMain:
                 sys.exit()
             elif event.type == KEYDOWN:
                 self.raptor.update(event)
+                if event.key == K_q:
+                    self.running = False
 
     def main_loop(self):
         pygame.key.set_repeat(500, 30)
@@ -93,7 +96,7 @@ class RaptorMain:
 
         self.load_sprites()
 
-        while 1:
+        while self.running:
             self.handle_keys()
             self.update_scene()
             self.draw()
