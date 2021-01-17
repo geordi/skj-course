@@ -1,4 +1,4 @@
-# SPJA Course
+# SKJ Course
 
 ## Overview
 
