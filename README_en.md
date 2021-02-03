@@ -1,16 +1,11 @@
-# Skriptovací jazyky (Scripting Languages Course)
+# SKJ Course
 
-See also (README_en.md)[english version] of this page.
+## Overview
 
-
-## Přehled
-
-Na této stránce naleznete informace pro přednášky a cvičení předmětu Skriptovací jazyky.
-
-- [Hodnocení](#hodnoceni)
-- [Knihy](#knihy)
-- [Cvičení](#exercises)
-- [Projekt](#projekt)
+- [Grading](#grading)
+- [Books](#books)
+- [Exercises](#exercises)
+- [Project for full time students](#project-assignment-for-full-time-students)
 
 
 ## Labs
@@ -18,52 +13,54 @@ Na této stránce naleznete informace pro přednášky a cvičení předmětu Sk
 See [labs](labs) section for some scripts.
 
 
-## Jupyter notebooky
+## Jupiter notebooks
 
-Zdrojové kódy z úvodních lekcí můžete najít v adresáři s [Jupyter notebooky](notebooks).
+You can find some codes of first few lessons in [notebooks](notebooks) section.
 
 For course notes, see [spja-skripta repo](http://github.com/geordi/spja-skripta) (in Czech language)
 
 
-## Hodnocení
+## Grading
 
-V průběhu semestru dostanete na cvičeních zadáno 8 úloh, které samostatně vypracujete pod dohledem cvičícího na daném cvičení. Samozřejmě se budete moci cvičícího doptat na případné nejasnosti. Tyto úlohy se budou týkat témat probraných na přednáškách. K jednotlivým cvičením budete též mít k dispozici krátký text vysvětlující danou problematiku. Za každé cvičení budete moci získat až 5 bodů. Celkové bodové ohodnocení se Vám bude počítat ze 6ti nejlepších výsledků, kterých na cvičeních dosáhnete (maximálně tedy 30 bodů). Toto je nastaveno z důvodů, že můžete onemocnět a tudíž se nebudete moci dostavit na cvičení apod.
+In the course of the semester, you will be assigned 8 exercises, which you will elaborate independently under the supervision of the instructor in the given exercise. Of course, you will be able to ask the teacher if you need any help.
+These tasks will cover topics discussed in lectures.
+For each exercise you will also have a short text explaining the issue.
+You will be able to earn up to 5 points for each exercise.
+The total score will be calculated from the 6 best results you will achieve in the exercises (maximum 30 points).
+This is set so, because you may be ill and therefore you will not be able to attend the exercise, etc.
 
-Dále budete mít zadánu jednu domácí úlohu. Zadání úlohy bude vystaveny na této stránce a budete ní informováni na přednášce a cvičeních. Vašim úkolem je tuto úlohu samostatně nebo ve dvojici vypracovat a v zadaném termínu předvést na cvičení svému cvičícímu, který ohodnotí funkčnost řešení a také způsob, jakým je úloha naprogramována. Úloha je za 30 bodů. Pokud úlohu neodevzdáte v zadaném termínu, budou za každý započatý týden po řádném termínu odevzdání odečteny 3 body z maximálního přídělu. Úkol je povinný! Musíte jej odevzdat! Z tohoto úkolu musíte získat alespoň 10 bodů.
+You will be also assigned one homework.
+The assignment will be posted on this page and you will be informed about it in lectures and exercises.
+Your task is to elaborate this task individually or in pairs and present it to your teacher by the given deadline, who will evaluate the functionality of the solution and also the way the task is programmed.
+The task is worth 30 points.
+If you do not submit the assignment within the deadline, 3 points will be subtracted from the maximum ammount of points for each commenced week after the due deadline.
+The task is mandatory!
+You must delived it!
+You must earn at least 10 points from this task.
 
-Proběhne také závěrečný test, který musíte absolvovat. Za tento test můžete získat až 40 bodů. Minimálně musíte získat 15 bodů.
+<!-- In the final week will also take the final test, which you must pass. You can earn up to 40 points for this test. You must get at least 15 points. -->
 
 
+### Final test
 
-### Závěrečný test
-
-Závěrečný test proběhne ve zkouškovém období na učebnách. Termíny budou vypsány v [EdISonu](https://edison.vsb.cz).
-
+The final test will take place in the credit week and you will be informed about it in advance on the lecture and this website.
+The term is NOT listed in Edison.
 
 
-### Shrnutí
+### Summary
 
 <table>
-<tr>
-    <th>Shrnutí</th><th>MAX bodů</th><th>MIN bodů</th><th>Poznámka</th>
-</tr>
-<tr>
-    <td>Vypracování úloh na cvičeních</td><td>30 (40)</td><td>10</td><td>Bodování uvedeno v textu výše.</td>
-</tr>
-<tr>
-    <td>Projekt</td><td>30</td><td>10</td><td>Možno vypracovat ve dvojici.</td>
-</tr>
-<tr>
-    <td>Final test</td><td>40</td><td>15</td>
-</tr>
+<tr><th>Task type</th><th>MAX points</th><th>MIN points</th><th>Note</th></tr>
+<tr><td>Elaboration of tasks at seminars</td><td>30 (40)</td><td>6</td><td>Scoring mentioned above.</td></tr>
+<tr><td>Submission of the project in Django</td><td>30</td><td>10</td><td>Can be worked out in pairs.</td></tr>
+<tr><td>Final test</td><td>40</td><td>15</td></tr>
 </table>
 
 
-## Knihy
+## Books
 
-Doporučuji knihu [Dive Into Python 3](https://diveintopython3.problemsolving.io/) pro přečtení.
-
-Nejdůležitější kapitoly jsou:
+I recommend [Dive Into Python 3](https://diveintopython3.problemsolving.io/) book for reading.
+Important chapters are:
 1. Your First Python Program
 2. Native Datatypes
 3. Comprehensions
@@ -86,56 +83,28 @@ Where to Go From Here-->
 D. Troubleshooting
 
 
-## Další zdroje
+## Additional resources
 
 * [Python documentation](http://docs.python.org/index.html)
 
 <!--An interesting online interactive course found at Codeacademy .-->
 
-* Pro základy programování můžete využít knihu [Think Python](http://www.greenteapress.com/thinkpython/), kterou si můžete stáhnout zdarma.
+* For the basics of programming, you can use the [Think Python](http://www.greenteapress.com/thinkpython/) book, which you can download for free.
 
-* Přečtěte si také výukový text z [MIT](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/Syllabus/MIT6_01SCS11_notes.pdf), který vřele doporučuji.
+Also read the [MIT's course notes](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/Syllabus/MIT6_01SCS11_notes.pdf) , which I highly recommend.
 
-* Jako doplňkovou literaturu můžete použít oficiální [Python Tutorial](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/Syllabus/MIT6_01SCS11_notes.pdf).
+* You can use the official [Python Tutorial](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/Syllabus/MIT6_01SCS11_notes.pdf) as additional literature.
 
-* Sada [přednášek z MIT](https://www.youtube.com/watch?v=ewd7Lf2dr5Q&list=PL2C8C1F1B1FD608C0), které vysvětlují použití Pythonu na různých úlohách.
+* A set of [lectures from MIT ](https://www.youtube.com/watch?v=ewd7Lf2dr5Q&list=PL2C8C1F1B1FD608C0) that explain the use of Python on various tasks.
 
 
 ## Django
 
-Část našich cvičení se zabývá vývojem webových aplikací pomocí [Django frameworku](http://www.djangoproject.com/).
+Part of our tutorials focus on developing web applications using the [Django framework](http://www.djangoproject.com/).
 <!--There are also Czech pages where you can find documentation for version 1.0 in Czech.-->
-Pro zájemce o další informace z oblasti použití Django, doporučuji knihu [The Django Book](https://djangobook.com/).
+For those interested in using Django, I recommend [The Django Book](https://djangobook.com/).
 
 <!--Nice series about Djang was published on Zdroják server.-->
-
-## Kombinované studium
-
-Pro studenty kombinované formy studia budou připravy úlohy.
-<!-- Termín odevzdání jednotlivých úkolů (budou se postupně objevovat na této stránce) je ideálně do zápočtového týdne. Není však problém odevzdat úkoly a vyplnit test i v pozdějším termínu (ideálně tak do 2. týdne zkouškového období).
--->
-
-## Projekt
-
-Zadaní projektu (prezenční)
-<!--Termín odevzdávání: na cvičeních v týdnu od 16.12.2019 do 20.12.2019-->
-
-Pomocí Django frameworku naprogramujte jednoduchou webovou aplikaci, která bude splňovat následující kritéria:
-
-* aplikace bude obsahovat alespoň 6 modelů (2 řešitelé) nebo 3 modely (1 řešitel), které budou vzájemně provázány vazbou
-* k modelům vytvořte adekvátní administrativní rozhraní
-* aplikace bude obsahovat alespoň 12 view (2 řešitelé) nebo 6 view (1 řešitel) a s tím spojené URL, které budou s modely pracovat
-* view Vaší aplikace budou obsah předávat templatům (budete tedy implementovat 12 templatů (2 řešitelé) nebo 6 templatů (1 řešitel)
-* aplikace bude obsahovat alespoň 6 formulářů (2 řešitelé) nebo 3 formuláře (1 řešitel) (ať už formulář vázaný na model nebo Váš vlastní)
-* výsledná aplikace by měla tvořit nějaký logický celek, tj. jednotlivé stánky na sebe budou odkazoval pomocí linků
-* blogovací a fórum aplikace nejsou přípustné, neboť jsme je dělali na přednášce
-* projekt na téma benzínové stanice není přípustný, neboť jsme jej dělali na cvičeních
-* aplikace nemusí obsahovat grafické prvky a CSS styly
-* aplikace nemusí obsahovat geografickou složku
-* aplikace nesmí obsahovat generické view
-
-Aplikace může být např. Vaše velmi jednoduchá implementace služby Twitter, část školního informačního systému (udělování zápočtu studentům), nějaká část modré stránky (Facebook), apod.
-
 
 <!--
 Project for full-time students
@@ -161,69 +130,64 @@ Date	Time
 20. 1. 2017	14:00
 -->
 
-## Cvičení
+## Exercises
 
-### Cvičení 1
+### Exercise 1
 
-Skript, do kterého můžete postupně doplňovat kód, je k dispozici zde: [ex_01.py](labs/ex_01.py). (řešení: [ex_01_solution.py](labs/ex_01_solution.py)).
+The script to which you can gradually add the code is available here: [ex_01.py](labs/ex_01.py). The solution is available in: [ex_01_solution.py](labs/ex_01_solution.py).
 
-Na cvičení budeme probírat níže uvedená témata:
-* Dynamická typovost
+We will discuss the following topics in the exercise:
+* Dynamic typing
 * Garbage collector
 
-*Pracovní prostředí:
+* Working environment:
   * ipython
-  * Magic command `%run`, `%hist`
+  * Magic command,% hist
 
-* Základní datové typy:
-  * čísla (int, long, float, complex)
+* Basic data types:
+  * numbers (int, long, float, complex)
   * string:
     * immutable
-    * literal pro long string
-    * kódováni, encoding (bytes)
+    * literal for long string
+    * encoding (prefix u)
 * list, tuple
 * dict
 
-* Singletony: `None`, `True`, `False`
+* Singletons: `None`, `True`, `False`
 
-* Základy syntaxe:
-  * Komentáře (+ docstring)
-  * Přiřazení do proměnné
-  * Volání funkcí
-  * funkce `print` (základní `{}` substituce)
-  * Podmínky (možnost obejití absence switche)
-  * Cykly:
-    * `for`
-    * `while`
-  * Definice funkce
+* Syntax basics:
+  * Comments (+ docstring)
+  * Assignment to a variable
+  * Calling functions
+  * print (basic `{}` substitution)
+  * Conditions (possibility to bypass the absence of the switch)
+  * Cycles:
+    * for
+    * while
+  * Function definition
 
-Doporučeno k procvičení:
+Recommended for practice:
 
-Skript z akademického roku 2011/2012, který navíc obsahuje rekurzi: [ex_01_extended.py](labs/ex_01_extendedn.py) (řešení: [cv1_labs_extended_full.py](cv1_labs_extended_full.py)).
+A script from the 2011/2012 academic year that also includes recursion: [ex_01_extended.py](labs/ex_01_extendedn.py).
 
 <!--Solution: cv1_labs_extended_full.py-->
 
-<!--
 ### Exercise 2
 
 Scoring exercises on the topics discussed in the first lecture + the content of the first exercise where simple function calls were used.
--->
 
 <!--The study material is the text stated at the beginning of the page.-->
 
-<!--
 ### Exercise 3
 
 Scoring exercises on the topics discussed in the second lecture: Function, list comprehension, functional elements of programming, reading from a file.
 
--->
 <!--The study material is the text stated at the beginning of the page. Exceptions and file readings are explained in the presentation .-->
 
-<!--
+
 ### Exercise 4
 
 Scoring exercises on the topics discussed in the 3rd lecture: Object-oriented programming.
--->
 
 <!--
 The study material is the text stated at the beginning of the page.
@@ -231,29 +195,26 @@ Slides to imports and packages .
 Slides to object-oriented programming .
 -->
 
-<!--
 ### Exercise 5
 
 Scoring exercises on topics discussed in third and fourth lecture: Object-oriented programming.
--->
 
 <!--
 The study material is the text stated at the beginning of the page.
 Slides to object-oriented programming .
 -->
 
-<!--
+
 ### Exercise 6
 
 Scoring exercises on topics discussed at 3.-5. lecture: Object-oriented programming.
--->
 
 <!--
 The study material is the text stated at the beginning of the page.
 Slides to object-oriented programming .
 -->
 
-<!--
+
 ### Exercise 7
 
 Scoring exercises on topics discussed in the 6th lecture: XML
@@ -263,12 +224,12 @@ Slides to process XML .
 Example of [parsing XML](labs/ex_06_xml_examples.py) file [canteen.xml](notebooks/canteen.xml).
 
 There is also a [newer version of parsing](notebooks/lecture_05_parsing_xml.ipynb) using the ElementTree library and [converting an xml file to Python objects](notebooks/lecture_05_xml_to_object.ipynb).
--->
+
 <!--
 Example of searching on Twitter (not running since 2013).
 -->
 
-<!--
+
 ### Exercise 8
 
 Scoring exercises on topics discussed in the 8th lecture: XML-RPC
@@ -303,8 +264,6 @@ Using the Django framework, program a simple web application that meets the foll
 - the app may not have a geographic folder
 - the application must not contain a generic view
 - The application can be eg your very simple implementation of Twitter service, part of the school information system (granting credit to students), some part of the blue page (Facebook), etc.
-
--->
 
 <!--
 ## Distance Students Tasks
