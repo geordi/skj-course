@@ -1,28 +1,15 @@
 # Skriptovací jazyky (Scripting Languages Course)
 
-See also (README_en.md)[english version] of this page.
-
-
-## Přehled
+See also [README_en.md](english version) of this page.
 
 Na této stránce naleznete informace pro přednášky a cvičení předmětu Skriptovací jazyky.
 
-- [Hodnocení](#hodnoceni)
-- [Knihy](#knihy)
-- [Cvičení](#exercises)
-- [Projekt](#projekt)
 
-
-## Labs
-
-See [labs](labs) section for some scripts.
-
-
-## Jupyter notebooky
+## Zdrojové kódy
 
 Zdrojové kódy z úvodních lekcí můžete najít v adresáři s [Jupyter notebooky](notebooks).
 
-For course notes, see [spja-skripta repo](http://github.com/geordi/spja-skripta) (in Czech language)
+Jsou též k dispozici [zdrojové kódy ke cvičením](labs).
 
 
 ## Hodnocení
@@ -34,11 +21,9 @@ Dále budete mít zadánu jednu domácí úlohu. Zadání úlohy bude vystaveny 
 Proběhne také závěrečný test, který musíte absolvovat. Za tento test můžete získat až 40 bodů. Minimálně musíte získat 15 bodů.
 
 
-
 ### Závěrečný test
 
 Závěrečný test proběhne ve zkouškovém období na učebnách. Termíny budou vypsány v [EdISonu](https://edison.vsb.cz).
-
 
 
 ### Shrnutí
@@ -59,7 +44,12 @@ Závěrečný test proběhne ve zkouškovém období na učebnách. Termíny bud
 </table>
 
 
-## Knihy
+## Literatura
+
+Studijní opora je k dispozici v samostatném repozitáři [skj-skripta](http://github.com/geordi/spja-skripta).
+
+
+### Knihy
 
 Doporučuji knihu [Dive Into Python 3](https://diveintopython3.problemsolving.io/) pro přečtení.
 
@@ -86,7 +76,7 @@ Where to Go From Here-->
 D. Troubleshooting
 
 
-## Další zdroje
+### Další zdroje
 
 * [Python documentation](http://docs.python.org/index.html)
 
