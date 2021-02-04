@@ -5,6 +5,11 @@ See also [english version](README_en.md) of this page.
 Na této stránce naleznete informace pro přednášky a cvičení předmětu Skriptovací jazyky.
 
 
+## Cvičení
+
+Informace ohledně cvičení naleznete na [samostatné stránce](exercises.md) nebo stránce Vašeho cvičícího.
+
+
 ## Zdrojové kódy
 
 Zdrojové kódy z úvodních lekcí můžete najít v adresáři s [Jupyter notebooky](notebooks).
@@ -46,7 +51,7 @@ Závěrečný test proběhne ve zkouškovém období na učebnách. Termíny bud
 
 ## Literatura
 
-Studijní opora je k dispozici v samostatném repozitáři [skj-skripta](http://github.com/geordi/spja-skripta).
+Studijní opora je k dispozici v samostatném repozitáři [skj-skripta](http://github.com/geordi/spja-skripta) [[PDF](http://mrl.cs.vsb.cz/people/gaura/skj/skripta.pdf)].
 
 
 ### Knihy
@@ -90,6 +95,8 @@ D. Troubleshooting
 
 * Sada [přednášek z MIT](https://www.youtube.com/watch?v=ewd7Lf2dr5Q&list=PL2C8C1F1B1FD608C0), které vysvětlují použití Pythonu na různých úlohách.
 
+* Svůj programovací skill si můžete vyzkoušet např. na [CodinGame](https://www.codingame.com/start).
+
 
 ## Django
 
@@ -105,12 +112,12 @@ Pro studenty kombinované formy studia budou připravy úlohy.
 <!-- Termín odevzdání jednotlivých úkolů (budou se postupně objevovat na této stránce) je ideálně do zápočtového týdne. Není však problém odevzdat úkoly a vyplnit test i v pozdějším termínu (ideálně tak do 2. týdne zkouškového období).
 -->
 
-## Projekt
+## Projekt (prezenční studium)
 
-Zadaní projektu (prezenční)
-<!--Termín odevzdávání: na cvičeních v týdnu od 16.12.2019 do 20.12.2019-->
+Termín odevzdávání: na cvičeních v zápočtovém týdnu od 10.5.2021 do 14.5.2021.
 
-Pomocí Django frameworku naprogramujte jednoduchou webovou aplikaci, která bude splňovat následující kritéria:
+<!--
+Pomocí Django frameworku naprogramujte jednoduchou webovou aplikaci, která bude splňovat následující kritéria (můžete využít již hotového projektu do předmětu DB I s tím, že jeho návrh použijete jako základ Vaší Django aplikace):
 
 * aplikace bude obsahovat alespoň 6 modelů (2 řešitelé) nebo 3 modely (1 řešitel), které budou vzájemně provázány vazbou
 * k modelům vytvořte adekvátní administrativní rozhraní
@@ -125,6 +132,7 @@ Pomocí Django frameworku naprogramujte jednoduchou webovou aplikaci, která bud
 * aplikace nesmí obsahovat generické view
 
 Aplikace může být např. Vaše velmi jednoduchá implementace služby Twitter, část školního informačního systému (udělování zápočtu studentům), nějaká část modré stránky (Facebook), apod.
+-->
 
 
 <!--
@@ -151,150 +159,6 @@ Date	Time
 20. 1. 2017	14:00
 -->
 
-## Cvičení
-
-### Cvičení 1
-
-Skript, do kterého můžete postupně doplňovat kód, je k dispozici zde: [ex_01.py](labs/ex_01.py). (řešení: [ex_01_solution.py](labs/ex_01_solution.py)).
-
-Na cvičení budeme probírat níže uvedená témata:
-* Dynamická typovost
-* Garbage collector
-
-*Pracovní prostředí:
-  * ipython
-  * Magic command `%run`, `%hist`
-
-* Základní datové typy:
-  * čísla (int, long, float, complex)
-  * string:
-    * immutable
-    * literal pro long string
-    * kódováni, encoding (bytes)
-* list, tuple
-* dict
-
-* Singletony: `None`, `True`, `False`
-
-* Základy syntaxe:
-  * Komentáře (+ docstring)
-  * Přiřazení do proměnné
-  * Volání funkcí
-  * funkce `print` (základní `{}` substituce)
-  * Podmínky (možnost obejití absence switche)
-  * Cykly:
-    * `for`
-    * `while`
-  * Definice funkce
-
-Doporučeno k procvičení:
-
-Skript z akademického roku 2011/2012, který navíc obsahuje rekurzi: [ex_01_extended.py](labs/ex_01_extendedn.py) (řešení: [cv1_labs_extended_full.py](cv1_labs_extended_full.py)).
-
-<!--Solution: cv1_labs_extended_full.py-->
-
-<!--
-### Exercise 2
-
-Scoring exercises on the topics discussed in the first lecture + the content of the first exercise where simple function calls were used.
--->
-
-<!--The study material is the text stated at the beginning of the page.-->
-
-<!--
-### Exercise 3
-
-Scoring exercises on the topics discussed in the second lecture: Function, list comprehension, functional elements of programming, reading from a file.
-
--->
-<!--The study material is the text stated at the beginning of the page. Exceptions and file readings are explained in the presentation .-->
-
-<!--
-### Exercise 4
-
-Scoring exercises on the topics discussed in the 3rd lecture: Object-oriented programming.
--->
-
-<!--
-The study material is the text stated at the beginning of the page.
-Slides to imports and packages .
-Slides to object-oriented programming .
--->
-
-<!--
-### Exercise 5
-
-Scoring exercises on topics discussed in third and fourth lecture: Object-oriented programming.
--->
-
-<!--
-The study material is the text stated at the beginning of the page.
-Slides to object-oriented programming .
--->
-
-<!--
-### Exercise 6
-
-Scoring exercises on topics discussed at 3.-5. lecture: Object-oriented programming.
--->
-
-<!--
-The study material is the text stated at the beginning of the page.
-Slides to object-oriented programming .
--->
-
-<!--
-### Exercise 7
-
-Scoring exercises on topics discussed in the 6th lecture: XML
-
-Slides to process XML .
-
-Example of [parsing XML](labs/ex_06_xml_examples.py) file [canteen.xml](notebooks/canteen.xml).
-
-There is also a [newer version of parsing](notebooks/lecture_05_parsing_xml.ipynb) using the ElementTree library and [converting an xml file to Python objects](notebooks/lecture_05_xml_to_object.ipynb).
--->
-<!--
-Example of searching on Twitter (not running since 2013).
--->
-
-<!--
-### Exercise 8
-
-Scoring exercises on topics discussed in the 8th lecture: XML-RPC
-
-The study material is the text stated at the beginning of the page.
-
-XML-RPC examples:
-- [calc_client.py](calc_client.py)
-- [calc_service.py](calc_service.py)
-- [calc_service2.py](calc_service2.py)
-
-
-### Exercise 9
-
-Exercise on topics from all previous exercises.
-
-
-## Project assignment for full-time students
-Deadline for submitting: at seminars in the week from 16.12.2019 to 20.12.2019
-
-Using the Django framework, program a simple web application that meets the following criteria:
-
-- the application will contain at least 6 models (team of 2 students) or 3 models (team of 1 student), which will be interrelated
-- create adequate administrative interfaces for the models
-- the application will contain at least 12 view (team of 2 students) or 6 view (team of 1 student) and the associated URL that will work with the models
-- view Your application will pass content to templates (you will implement 12 templates (team of 2 students) or 6 templates (team of 1 student)
-- the application will contain at least 6 forms (team of 2 students) or 3 forms (team of 1 student) (either model-bound or your own)
-- the resulting application should form some logical whole, ie the individual pages will be linked to each other using links
-- blogging and forum apps are not allowed as we did them in the lecture
-- a gas station project is not acceptable as we did it at the exercises
-- the application does not have to contain graphic elements and CSS styles
-- the app may not have a geographic folder
-- the application must not contain a generic view
-- The application can be eg your very simple implementation of Twitter service, part of the school information system (granting credit to students), some part of the blue page (Facebook), etc.
-
--->
 
 <!--
 ## Distance Students Tasks
