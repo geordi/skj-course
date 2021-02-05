@@ -1,5 +1,9 @@
 # Cvičení
 
+Pro editaci zdrojového kódu doporučuji [VisualStudio Code](https://code.visualstudio.com/) s nainstalovaným rozšířením [ms-python.python](https://marketplace.visualstudio.com/items?itemName=ms-python.python). Pokud chcete používat jiný editor, tak můžete využít, např. PyCharm, kde můžete získat plnou verzi jako studenti, [Doom Emacs](https://github.com/hlissner/doom-emacs), [SpaceVim](https://spacevim.org/), aj.
+Osobně jsem si vždy vystačil s obyčejným textovým editorem, příkazovou řádkou [iPython](https://ipython.org/) a [Jupyter Notebooky](https://jupyter.org/) (v předmětu je k dispozici i [pár vlastních](notebooks)).
+
+
 ## Cvičení 1
 
 Skript, do kterého můžete postupně doplňovat kód, je k dispozici zde: [ex_01.py](labs/ex_01.py). (řešení: [ex_01_solution.py](labs/ex_01_solution.py)).
@@ -13,13 +17,13 @@ Na cvičení budeme probírat níže uvedená témata:
   * Magic command `%run`, `%hist`
 
 * Základní datové typy:
-  * čísla (int, long, float, complex)
-  * string:
+  * čísla (`int`, `long`, `float`, `complex`)
+  * `string`:
     * immutable
     * literal pro long string
     * kódováni, encoding (bytes)
-* list, tuple
-* dict
+* `list`, `tuple`
+* `dict`
 
 * Singletony: `None`, `True`, `False`
 
