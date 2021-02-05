@@ -1,7 +1,8 @@
 # Cvičení
 
-Pro editaci zdrojového kódu doporučuji [VisualStudio Code](https://code.visualstudio.com/) s nainstalovaným rozšířením [ms-python.python](https://marketplace.visualstudio.com/items?itemName=ms-python.python). Pokud chcete používat jiný editor, tak můžete využít, např. PyCharm, kde můžete získat plnou verzi jako studenti, [Doom Emacs](https://github.com/hlissner/doom-emacs), [SpaceVim](https://spacevim.org/), aj.
-Osobně jsem si vždy vystačil s obyčejným textovým editorem, příkazovou řádkou [iPython](https://ipython.org/) a [Jupyter Notebooky](https://jupyter.org/) (v předmětu je k dispozici i [pár vlastních](notebooks)).
+Pro editaci zdrojového kódu doporučuji [VisualStudio Code](https://code.visualstudio.com/) s nainstalovaným rozšířením [ms-python.python](https://marketplace.visualstudio.com/items?itemName=ms-python.python). Pokud chcete používat jiný editor, tak můžete využít, např. [PyCharm](https://www.jetbrains.com/pycharm/), kde můžete získat plnou verzi jako studenti (BTW: IntelliJ IDEA má pěkný [Rust plugin](https://plugins.jetbrains.com/plugin/8182-rust), do kterého příspívá i jeden ze cvičících tohoto předmětu a to [Jakub Beránek](https://github.com/Kobzol)), [Doom Emacs](https://github.com/hlissner/doom-emacs), [SpaceVim](https://spacevim.org/), aj.
+
+Osobně jsem si vždy vystačil s obyčejným textovým editorem, příkazovou řádkou [iPython](https://ipython.org/) a [Jupyter Notebooky](https://jupyter.org/) (v předmětu je k dispozici i [pár vlastních noteboků](notebooks)).
 
 
 ## Cvičení 1

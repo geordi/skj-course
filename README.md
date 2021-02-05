@@ -55,6 +55,11 @@ Pro společnou komunikaci je pro Vás vytvořena místnost na školním [Matrix 
 Můžete také komunikovat napřímo s přednášejícím nebo cvičícími.
 
 
+## Odevzdávání úloh
+
+Pro odevzdávání úloh bude sloužit systém [Kelvin](https://kelvin.cs.vsb.cz) (pokud cvičící neurčí jinak).
+
+
 ## Literatura
 
 Studijní opora je k dispozici v samostatném repozitáři [skj-skripta](http://github.com/geordi/spja-skripta) [[PDF](http://mrl.cs.vsb.cz/people/gaura/skj/skripta.pdf)].
