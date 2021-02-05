@@ -49,36 +49,24 @@ Závěrečný test proběhne ve zkouškovém období na učebnách. Termíny bud
 </table>
 
 
+## Komunikace
+
+Pro společnou komunikaci je pro Vás vytvořena místnost na školním [Matrix serveru](https://matrix.cs.vsb.cz).
+Můžete také komunikovat napřímo s přednášejícím nebo cvičícími.
+
+
 ## Literatura
 
 Studijní opora je k dispozici v samostatném repozitáři [skj-skripta](http://github.com/geordi/spja-skripta) [[PDF](http://mrl.cs.vsb.cz/people/gaura/skj/skripta.pdf)].
+
+Velmi pěkný totoriál o Pythonu je v kurzu [PyLadies](https://naucse.python.cz/course/pyladies/).
 
 
 ### Knihy
 
 Doporučuji knihu [Dive Into Python 3](https://diveintopython3.problemsolving.io/) pro přečtení.
 
-Nejdůležitější kapitoly jsou:
-1. Your First Python Program
-2. Native Datatypes
-3. Comprehensions
-4. Strings
-<!--Regular Expressions-->
-6. Closures & Generators
-7. Classes & Iterators
-8. Advanced Iterators
-<!--9. Unit Testing-->
-<!--10. Refactoring-->
-11. Files
-12. XML
-<!--13. Serializing Python Objects-->
-14. HTTP Web Services
-<!--Case Study: Porting chardet to Python 3
-Packaging Python Libraries
-Porting Code to Python 3 with 2to3
-Special Method Names
-Where to Go From Here-->
-D. Troubleshooting
+Velice pěkný text je také z kurzu [MIT 6.01](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/syllabus/MIT6_01SCS11_textbook.pdf).
 
 
 ### Další zdroje
@@ -98,13 +86,14 @@ D. Troubleshooting
 * Svůj programovací skill si můžete vyzkoušet např. na [CodinGame](https://www.codingame.com/start).
 
 
-## Django
+## Django Framework
 
 Část našich cvičení se zabývá vývojem webových aplikací pomocí [Django frameworku](http://www.djangoproject.com/).
 <!--There are also Czech pages where you can find documentation for version 1.0 in Czech.-->
 Pro zájemce o další informace z oblasti použití Django, doporučuji knihu [The Django Book](https://djangobook.com/).
 
 <!--Nice series about Djang was published on Zdroják server.-->
+
 
 ## Kombinované studium
 
