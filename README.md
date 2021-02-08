@@ -82,11 +82,9 @@ Velice pěkný text je také z kurzu [MIT 6.01](https://ocw.mit.edu/courses/elec
 
 * Pro základy programování můžete využít knihu [Think Python](http://www.greenteapress.com/thinkpython/), kterou si můžete stáhnout zdarma.
 
-* Přečtěte si také výukový text z [MIT](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/Syllabus/MIT6_01SCS11_notes.pdf), který vřele doporučuji.
+* Jako doplňkovou literaturu můžete použít oficiální [Python Tutorial](https://docs.python.org/3/tutorial/).
 
-* Jako doplňkovou literaturu můžete použít oficiální [Python Tutorial](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/Syllabus/MIT6_01SCS11_notes.pdf).
-
-* Sada [přednášek z MIT](https://www.youtube.com/watch?v=ewd7Lf2dr5Q&list=PL2C8C1F1B1FD608C0), které vysvětlují použití Pythonu na různých úlohách.
+* Sada [přednášek z MIT](https://www.youtube.com/watch?v=bX3jvD7XFPs&list=PLB2BE3D6CA77BB8F7), které vysvětlují použití Pythonu na různých úlohách.
 
 * Svůj programovací skill si můžete vyzkoušet např. na [CodinGame](https://www.codingame.com/start).
 
