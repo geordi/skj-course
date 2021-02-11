@@ -41,7 +41,7 @@ Závěrečný test proběhne ve zkouškovém období na učebnách. Termíny bud
     <td>Vypracování úloh na cvičeních</td><td>30 (40)</td><td>10</td><td>Bodování uvedeno v textu výše.</td>
 </tr>
 <tr>
-    <td>Projekt</td><td>30</td><td>10</td><td>Možno vypracovat ve dvojici.</td>
+    <td>Projekt</td><td>30</td><td>10</td><td>Samostatná práce.</td>
 </tr>
 <tr>
     <td>Final test</td><td>40</td><td>15</td>
