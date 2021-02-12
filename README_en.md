@@ -1,38 +1,28 @@
-# SKJ Course
+# Scripting Languages Course
 
-## Overview
-
-- [Grading](#grading)
-- [Books](#books)
-- [Exercises](#exercises)
-- [Project for full time students](#project-assignment-for-full-time-students)
+Here, you can find all necessary information about Scripting Languages course.
 
 
 ## Labs
 
-See [labs](labs) section for some scripts.
+Information about labs is available in a [separate page](exercises_en.md).
 
 
-## Jupiter notebooks
+## Source Codes
 
-You can find some codes of first few lessons in [notebooks](notebooks) section.
+You can find source codes from lectures in the [Jupyter notebooks](notebooks) section.
 
-For course notes, see [spja-skripta repo](http://github.com/geordi/spja-skripta) (in Czech language)
+See also [labs](labs) section for codes for Labs.
 
 
 ## Grading
 
-In the course of the semester, you will be assigned 8 exercises, which you will elaborate independently under the supervision of the instructor in the given exercise. Of course, you will be able to ask the teacher if you need any help.
-These tasks will cover topics discussed in lectures.
-For each exercise you will also have a short text explaining the issue.
-You will be able to earn up to 5 points for each exercise.
-The total score will be calculated from the 6 best results you will achieve in the exercises (maximum 30 points).
-This is set so, because you may be ill and therefore you will not be able to attend the exercise, etc.
+In the course of the semester, you will be assigned 8 exercises, which you will elaborate independently. Tasks will appear in the [Kelvin](https://kelvin.cs.vsb.cz) system.
 
-You will be also assigned one homework.
-The assignment will be posted on this page and you will be informed about it in lectures and exercises.
-Your task is to elaborate this task individually or in pairs and present it to your teacher by the given deadline, who will evaluate the functionality of the solution and also the way the task is programmed.
-The task is worth 30 points.
+You will be also assigned one project.
+The assignment will be posted on this page and you will be informed about it.
+Your task is to elaborate this task individually and present it to your teacher by the given deadline, who will evaluate the functionality of the solution and also the way the task is programmed.
+The project is worth 30 points.
 If you do not submit the assignment within the deadline, 3 points will be subtracted from the maximum ammount of points for each commenced week after the due deadline.
 The task is mandatory!
 You must delived it!
@@ -43,23 +33,30 @@ You must earn at least 10 points from this task.
 
 ### Final test
 
-The final test will take place in the credit week and you will be informed about it in advance on the lecture and this website.
-The term is NOT listed in Edison.
+The final test will take place in the examination period and you schedule will be announced in [EdISon](https://edison.vsb.cz).
 
 
 ### Summary
 
 <table>
 <tr><th>Task type</th><th>MAX points</th><th>MIN points</th><th>Note</th></tr>
-<tr><td>Elaboration of tasks at seminars</td><td>30 (40)</td><td>6</td><td>Scoring mentioned above.</td></tr>
-<tr><td>Submission of the project in Django</td><td>30</td><td>10</td><td>Can be worked out in pairs.</td></tr>
+<tr><td>Elaboration of tasks</td><td>30 (40)</td><td>6</td><td>Scoring mentioned above.</td></tr>
+<tr><td>Submission of the project in Django</td><td>30</td><td>10</td><td></td></tr>
 <tr><td>Final test</td><td>40</td><td>15</td></tr>
 </table>
+
+
+## Delivering Tasks
+
+To handout task, use [Kelvin](https://kelvin.cs.vsb.cz) system.
 
 
 ## Books
 
 I recommend [Dive Into Python 3](https://diveintopython3.problemsolving.io/) book for reading.
+
+
+Text from [MIT 6.01](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/syllabus/MIT6_01SCS11_textbook.pdf) course is also recommend.
 
 
 ## Additional resources
@@ -70,11 +67,9 @@ I recommend [Dive Into Python 3](https://diveintopython3.problemsolving.io/) boo
 
 * For the basics of programming, you can use the [Think Python](http://www.greenteapress.com/thinkpython/) book, which you can download for free.
 
-Also read the [MIT's course notes](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/Syllabus/MIT6_01SCS11_notes.pdf) , which I highly recommend.
+* You can use the official [Python Tutorial](https://docs.python.org/3/tutorial/) as additional literature.
 
-* You can use the official [Python Tutorial](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/Syllabus/MIT6_01SCS11_notes.pdf) as additional literature.
-
-* A set of [lectures from MIT ](https://www.youtube.com/watch?v=ewd7Lf2dr5Q&list=PL2C8C1F1B1FD608C0) that explain the use of Python on various tasks.
+* A set of [lectures from MIT ](https://www.youtube.com/watch?v=bX3jvD7XFPs&list=PLB2BE3D6CA77BB8F7) that explain the use of Python on various tasks.
 
 
 ## Django
@@ -109,125 +104,9 @@ Date	Time
 20. 1. 2017	14:00
 -->
 
-## Exercises
-
-### Exercise 1
-
-The script to which you can gradually add the code is available here: [ex_01.py](labs/ex_01.py). The solution is available in: [ex_01_solution.py](labs/ex_01_solution.py).
-
-We will discuss the following topics in the exercise:
-* Dynamic typing
-* Garbage collector
-
-* Working environment:
-  * ipython
-  * Magic command,% hist
-
-* Basic data types:
-  * numbers (int, long, float, complex)
-  * string:
-    * immutable
-    * literal for long string
-    * encoding (prefix u)
-* list, tuple
-* dict
-
-* Singletons: `None`, `True`, `False`
-
-* Syntax basics:
-  * Comments (+ docstring)
-  * Assignment to a variable
-  * Calling functions
-  * print (basic `{}` substitution)
-  * Conditions (possibility to bypass the absence of the switch)
-  * Cycles:
-    * for
-    * while
-  * Function definition
-
-Recommended for practice:
-
-A script from the 2011/2012 academic year that also includes recursion: [ex_01_extended.py](labs/ex_01_extendedn.py).
-
-<!--Solution: cv1_labs_extended_full.py-->
-
-### Exercise 2
-
-Scoring exercises on the topics discussed in the first lecture + the content of the first exercise where simple function calls were used.
-
-<!--The study material is the text stated at the beginning of the page.-->
-
-### Exercise 3
-
-Scoring exercises on the topics discussed in the second lecture: Function, list comprehension, functional elements of programming, reading from a file.
-
-<!--The study material is the text stated at the beginning of the page. Exceptions and file readings are explained in the presentation .-->
-
-
-### Exercise 4
-
-Scoring exercises on the topics discussed in the 3rd lecture: Object-oriented programming.
-
-<!--
-The study material is the text stated at the beginning of the page.
-Slides to imports and packages .
-Slides to object-oriented programming .
--->
-
-### Exercise 5
-
-Scoring exercises on topics discussed in third and fourth lecture: Object-oriented programming.
-
-<!--
-The study material is the text stated at the beginning of the page.
-Slides to object-oriented programming .
--->
-
-
-### Exercise 6
-
-Scoring exercises on topics discussed at 3.-5. lecture: Object-oriented programming.
-
-<!--
-The study material is the text stated at the beginning of the page.
-Slides to object-oriented programming .
--->
-
-
-### Exercise 7
-
-Scoring exercises on topics discussed in the 6th lecture: XML
-
-Slides to process XML .
-
-Example of [parsing XML](labs/ex_06_xml_examples.py) file [canteen.xml](notebooks/canteen.xml).
-
-There is also a [newer version of parsing](notebooks/lecture_05_parsing_xml.ipynb) using the ElementTree library and [converting an xml file to Python objects](notebooks/lecture_05_xml_to_object.ipynb).
-
-<!--
-Example of searching on Twitter (not running since 2013).
--->
-
-
-### Exercise 8
-
-Scoring exercises on topics discussed in the 8th lecture: XML-RPC
-
-The study material is the text stated at the beginning of the page.
-
-XML-RPC examples:
-- [calc_client.py](calc_client.py)
-- [calc_service.py](calc_service.py)
-- [calc_service2.py](calc_service2.py)
-
-
-### Exercise 9
-
-Exercise on topics from all previous exercises.
-
 
 ## Project assignment for full-time students
-Deadline for submitting: at seminars in the week from 16.12.2019 to 20.12.2019
+Deadline for submitting: at seminars in the week from 10.5.2021 to 14.5.2021
 
 Using the Django framework, program a simple web application that meets the following criteria:
 
