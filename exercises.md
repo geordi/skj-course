@@ -45,9 +45,13 @@ Skript z akademického roku 2011/2012, který navíc obsahuje rekurzi: [ex_01_ex
 
 <!--Solution: cv1_labs_extended_full.py-->
 
-<!--
-## Exercise 2
+## Cvičení 2
 
+Procvičíme si kolekce a práci s nimi.
+
+Skript, do kterého můžete postupně doplňovat kód, je k dispozici zde: [ex_02.py](labs/ex_02.py).<!----> (řešení: [ex_02_solution.py](labs/ex_02_solution.py)).-->
+
+<!--
 Scoring exercises on the topics discussed in the first lecture + the content of the first exercise where simple function calls were used.
 -->
 
