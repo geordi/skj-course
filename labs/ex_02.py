@@ -18,9 +18,17 @@ def use_envelope(lst):
 
 def super_print(*arg):
     """
-    Funkce bere libovolny pocet parametru jako print, ale parametr
-    muze byt jen retezec.
-    Vystup: vypise parametry stejne jako print, ale oddeli vystup
-    radou pomlcek, kterych je stejne jako bude vysledna delka retezce.
+    Prints string of joined strings from *arg separated by whitespace.
+    On the top and bottom of the string, `-` character is print in the same length
+    as the output string.
+    
+    Example:
+      super_print("Hello", "World!")
+      
+      ------------
+      Hello World!
+      ------------
     """
     pass
+
+
