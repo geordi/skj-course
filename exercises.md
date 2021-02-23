@@ -57,9 +57,14 @@ Scoring exercises on the topics discussed in the first lecture + the content of 
 
 <!--The study material is the text stated at the beginning of the page.-->
 
-<!--
 ## Exercise 3
 
+Procvičíme si práci se soubory, použití různých parametrů funkcí, generátory, apod.
+
+Skript, do kterého můžete postupně doplňovat kód, je k dispozici zde: [ex_03.py](labs/ex_03.py).
+K němu je ještě třeba doplňkový sobor [cities.txt](labs/cities.txt).<!--(řešení: [ex_02_solution.py](labs/ex_02_solution.py)).-->
+
+<!--
 Scoring exercises on the topics discussed in the second lecture: Function, list comprehension, functional elements of programming, reading from a file.
 
 -->

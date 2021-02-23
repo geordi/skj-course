@@ -1,0 +1,6 @@
+Ostrava:336000
+Praha:1249000
+Brno:405000
+Olomouc:101000
+Karvina:63000
+Havirov:82000
