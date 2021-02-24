@@ -31,7 +31,7 @@ def read_file_using_with(filename):
         return lines
 
 
-def filtruj_mesta(filename, **kw):
+def filter_cities(filename, **kw):
     """
     Returns a list of cities that match their population specified by restrictions.
     In **kw it will be possible to set an argument:
@@ -45,7 +45,7 @@ def filtruj_mesta(filename, **kw):
     Reimplement the function to return a generator.
     """
 
-    cities = filter_cities(filename)
+    cities = read_file(filename)
     filtered = []
     if 'gt' in kw:
         pass
