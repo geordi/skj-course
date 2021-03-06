@@ -36,7 +36,7 @@ We will discuss the following topics in the exercise:
 
 Recommended for practice:
 
-A script from the 2011/2012 academic year that also includes recursion: [ex_01_extended.py](labs/ex_01_extendedn.py).
+A script from the 2011/2012 academic year that also includes recursion: [ex_01_extended.py](labs/ex_01_extended.py).
 (solution: [cv1_labs_extended_full.py](cv1_labs_extended_full.py)).
 
 
