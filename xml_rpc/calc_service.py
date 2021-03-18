@@ -4,7 +4,7 @@ class CalcService:
 
     def add(self, a, b):
         """
-        This is add method.
+        Adds two things.
         """
         return a + b
 
@@ -15,7 +15,8 @@ def main():
     server.register_instance(xmlrpc_service)
     server.register_introspection_functions()
 
-    print("CTRL-C to stop")
+    print('CTRL-C to stop')
     server.serve_forever()
 
-main()
+if __name__ == '__main__':
+    main()

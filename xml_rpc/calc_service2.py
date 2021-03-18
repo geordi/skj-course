@@ -12,8 +12,8 @@ def main():
     server.register_function(add)
     server.register_introspection_functions()
 
-    print("CTRL-C to stop")
+    print('CTRL-C to stop')
     server.serve_forever()
 
-main()
-
+if __name__ == '__main__':
+    main()
