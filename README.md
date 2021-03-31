@@ -100,31 +100,30 @@ Pro zájemce o další informace z oblasti použití Django, doporučuji knihu [
 
 ## Kombinované studium
 
-Pro studenty kombinované formy studia budou připravy úlohy.
+Pro studenty kombinované formy studia jsou plohy dostupné v systému [Kelvin](https://kelvin.cs.vsb.cz).
 <!-- Termín odevzdání jednotlivých úkolů (budou se postupně objevovat na této stránce) je ideálně do zápočtového týdne. Není však problém odevzdat úkoly a vyplnit test i v pozdějším termínu (ideálně tak do 2. týdne zkouškového období).
 -->
 
-## Projekt (prezenční studium)
+## Projekt
 
 Termín odevzdávání: na cvičeních v zápočtovém týdnu od 10.5.2021 do 14.5.2021.
 
-<!--
-Pomocí Django frameworku naprogramujte jednoduchou webovou aplikaci, která bude splňovat následující kritéria (můžete využít již hotového projektu do předmětu DB I s tím, že jeho návrh použijete jako základ Vaší Django aplikace):
+Pomocí Django frameworku naprogramujte webovou aplikaci, která bude splňovat následující kritéria
+(můžete využít již hotového projektu do předmětu DBS II s tím, že jeho návrh použijete jako základ Vaší Django aplikace):
 
-* aplikace bude obsahovat alespoň 6 modelů (2 řešitelé) nebo 3 modely (1 řešitel), které budou vzájemně provázány vazbou
+* aplikace bude obsahovat alespoň 6 modelů, které budou vzájemně provázány vazbou
 * k modelům vytvořte adekvátní administrativní rozhraní
-* aplikace bude obsahovat alespoň 12 view (2 řešitelé) nebo 6 view (1 řešitel) a s tím spojené URL, které budou s modely pracovat
-* view Vaší aplikace budou obsah předávat templatům (budete tedy implementovat 12 templatů (2 řešitelé) nebo 6 templatů (1 řešitel)
-* aplikace bude obsahovat alespoň 6 formulářů (2 řešitelé) nebo 3 formuláře (1 řešitel) (ať už formulář vázaný na model nebo Váš vlastní)
+* aplikace bude obsahovat alespoň 12 view a s tím spojené URL, které budou s modely pracovat
+* view Vaší aplikace budou obsah předávat templatům (budete tedy implementovat 12 templatů
+* aplikace bude obsahovat alespoň 6 formulářů (ať už formulář vázaný na model nebo Váš vlastní)
 * výsledná aplikace by měla tvořit nějaký logický celek, tj. jednotlivé stánky na sebe budou odkazoval pomocí linků
 * blogovací a fórum aplikace nejsou přípustné, neboť jsme je dělali na přednášce
 * projekt na téma benzínové stanice není přípustný, neboť jsme jej dělali na cvičeních
-* aplikace nemusí obsahovat grafické prvky a CSS styly
+* aplikace by měla obsahovat grafické prvky a CSS styly (pro jednoduchout využijte např. knihovnu [Bootstrap](https://getbootstrap.com/))
 * aplikace nemusí obsahovat geografickou složku
 * aplikace nesmí obsahovat generické view
 
 Aplikace může být např. Vaše velmi jednoduchá implementace služby Twitter, část školního informačního systému (udělování zápočtu studentům), nějaká část modré stránky (Facebook), apod.
--->
 
 
 <!--
