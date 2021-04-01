@@ -116,7 +116,7 @@ Pomocí Django frameworku naprogramujte webovou aplikaci, která bude splňovat 
 * aplikace bude obsahovat alespoň 12 view a s tím spojené URL, které budou s modely pracovat
 * view Vaší aplikace budou obsah předávat templatům (budete tedy implementovat 12 templatů
 * aplikace bude obsahovat alespoň 6 formulářů (ať už formulář vázaný na model nebo Váš vlastní)
-* výsledná aplikace by měla tvořit nějaký logický celek, tj. jednotlivé stánky na sebe budou odkazoval pomocí linků
+* výsledná aplikace by měla tvořit nějaký logický celek, tj. jednotlivé stránky na sebe budou odkazoval pomocí linků
 * blogovací a fórum aplikace nejsou přípustné, neboť jsme je dělali na přednášce
 * projekt na téma benzínové stanice není přípustný, neboť jsme jej dělali na cvičeních
 * aplikace by měla obsahovat grafické prvky a CSS styly (pro jednoduchout využijte např. knihovnu [Bootstrap](https://getbootstrap.com/))
