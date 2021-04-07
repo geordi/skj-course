@@ -21,7 +21,11 @@ Jsou též k dispozici [zdrojové kódy ke cvičením](labs).
 
 V průběhu semestru dostanete na cvičeních zadáno 8 úloh, které samostatně vypracujete pod dohledem cvičícího na daném cvičení. Samozřejmě se budete moci cvičícího doptat na případné nejasnosti. Tyto úlohy se budou týkat témat probraných na přednáškách. K jednotlivým cvičením budete též mít k dispozici krátký text vysvětlující danou problematiku. Za každé cvičení budete moci získat až 5 bodů. Celkové bodové ohodnocení se Vám bude počítat ze 6ti nejlepších výsledků, kterých na cvičeních dosáhnete (maximálně tedy 30 bodů). Toto je nastaveno z důvodů, že můžete onemocnět a tudíž se nebudete moci dostavit na cvičení apod.
 
-Dále budete mít zadánu jednu domácí úlohu. Zadání úlohy bude vystaveny na této stránce a budete ní informováni na přednášce a cvičeních. Vašim úkolem je tuto úlohu samostatně nebo ve dvojici vypracovat a v zadaném termínu předvést na cvičení svému cvičícímu, který ohodnotí funkčnost řešení a také způsob, jakým je úloha naprogramována. Úloha je za 30 bodů. Pokud úlohu neodevzdáte v zadaném termínu, budou za každý započatý týden po řádném termínu odevzdání odečteny 3 body z maximálního přídělu. Úkol je povinný! Musíte jej odevzdat! Z tohoto úkolu musíte získat alespoň 10 bodů.
+Dále budete mít zadánu jednu domácí úlohu. Zadání úlohy bude vystaveny na této stránce a budete ní informováni na přednášce a cvičeních.
+Vašim úkolem je tuto úlohu samostatně vypracovat a v zadaném termínu předvést na cvičení svému cvičícímu, který ohodnotí funkčnost řešení a také způsob, jakým je úloha naprogramována.
+Úloha je za 30 bodů. Pokud úlohu neodevzdáte v zadaném termínu, budou za každý započatý týden po řádném termínu odevzdání odečteny 3 body z maximálního přídělu.
+Úkol je povinný! Musíte jej odevzdat!
+Z tohoto úkolu musíte získat alespoň 10 bodů.
 
 Proběhne také závěrečný test, který musíte absolvovat. Za tento test můžete získat až 40 bodů. Minimálně musíte získat 15 bodů.
 
