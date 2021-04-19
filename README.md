@@ -23,7 +23,7 @@ V průběhu semestru dostanete na cvičeních zadáno 8 úloh, které samostatn�
 
 Dále budete mít zadánu jednu domácí úlohu. Zadání úlohy bude vystaveny na této stránce a budete ní informováni na přednášce a cvičeních.
 Vašim úkolem je tuto úlohu samostatně vypracovat a v zadaném termínu předvést na cvičení svému cvičícímu, který ohodnotí funkčnost řešení a také způsob, jakým je úloha naprogramována.
-Úloha je za 30 bodů. Pokud úlohu neodevzdáte v zadaném termínu, budou za každý započatý týden po řádném termínu odevzdání odečteny 3 body z maximálního přídělu.
+Úloha je za 30 bodů. Pokud úlohu neodevzdáte v zadaném termínu, bude za každý započatý týden po řádném termínu odevzdání odečteno 8 bodů z maximálního přídělu.
 Úkol je povinný! Musíte jej odevzdat!
 Z tohoto úkolu musíte získat alespoň 10 bodů.
 
