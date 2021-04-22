@@ -1,6 +1,7 @@
 import os
 import sys
 import pygame
+from pygame.time import Clock
 from pygame.locals import *
 
 DIR_UP = 1
@@ -9,10 +10,10 @@ DIR_DOWN = -1
 if not pygame.font: print('Warning, fonts disabled')
 if not pygame.mixer: print('Warning, sound disabled')
 
-
 def load_image(name, colorkey=None):
+    fullname = name  # os.path.join('data', name)
     try:
-        image = pygame.image.load(name)
+        image = pygame.image.load(fullname)
     except pygame.error as message:
         print('Cannot load image:', name)
         raise SystemExit(message)
@@ -51,6 +52,7 @@ class Enemy(pygame.sprite.Sprite):
     def __init__(self, pos):
         pygame.sprite.Sprite.__init__(self)
         self.image, self.rect = load_image('images/enemy1.gif', -1)
+        self.x_dist, self.y_dist = 0, 0.5
         self.pos = pos
         self.rect.center = self.pos
         self.health = 100
@@ -58,8 +60,8 @@ class Enemy(pygame.sprite.Sprite):
 
     def update(self):
         pos_x, pos_y = self.pos
-        pos_y += 0.1
-        self.pos = (pos_x, pos_y,)
+        pos_y += self.y_dist
+        self.pos = (pos_x, pos_y)
         self.rect.center = (round(pos_x), round(pos_y))
 
 
@@ -76,30 +78,30 @@ class Raptor(pygame.sprite.Sprite):
         self.x_dist, self.y_dist = 5, 5
 
     def update(self, event):
-        move_x = 0
-        move_y = 0
+        x_move = 0
+        y_move = 0
 
         if event.type == KEYDOWN:
             if event.key == K_RIGHT:
-                move_x = self.x_dist
+                x_move = self.x_dist
                 center = self.rect.center
                 self.image, self.rect = load_image(self.images['right'], -1)
                 self.rect.center = center
             elif event.key == K_LEFT:
-                move_x = -self.x_dist
+                x_move = -self.x_dist
                 center = self.rect.center
                 self.image, self.rect = load_image(self.images['left'], -1)
                 self.rect.center = center
             elif event.key == K_UP:
-                move_y = -self.y_dist
+                y_move = -self.y_dist
             elif event.key == K_DOWN:
-                move_y = self.y_dist
+                y_move = self.y_dist
         elif event.type == KEYUP:
             center = self.rect.center
             self.image, self.rect = load_image(self.images['straight'], -1)
             self.rect.center = center
 
-        self.rect.move_ip(move_x, move_y)
+        self.rect.move_ip(x_move, y_move)
 
     def create_bullet(self):
         bullet = Bullet(self.rect.center, DIR_UP)
@@ -115,19 +117,21 @@ class RaptorMain:
         self.screen = pygame.display.set_mode((self.width, self.height))
         self.score = 0
         self.running = True
+        self.clock = Clock()
 
     def draw(self):
         self.screen.blit(self.background, (0, 0))
         self.raptor_sprites.draw(self.screen)
         self.enemy_sprites.draw(self.screen)
-        if self.bullet_sprites is not None:
-            self.bullet_sprites.draw(self.screen)
+        self.bullet_sprites.draw(self.screen)
 
         if pygame.font:
             font = pygame.font.Font(None, 36)
             text = font.render('Score: {}'.format(self.score), 1, (255, 0, 0))
             textpos = text.get_rect(centerx=self.width/2)
             self.screen.blit(text, textpos)
+
+        self.clock.tick(60)
 
         pygame.display.flip()
 
@@ -146,6 +150,7 @@ class RaptorMain:
 
             if lst_cols != []:
                 bullet.kill()
+
 
     def handle_keys(self):
         for event in pygame.event.get():
