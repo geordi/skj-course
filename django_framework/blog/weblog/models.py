@@ -8,10 +8,11 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
+
 class Comment(models.Model):
-    post = models.ForeignKey(Post)
+    post = models.ForeignKey(Post, on_delete=models.CASCADE)
     body = models.TextField()
     date = models.DateTimeField('date commented', auto_now_add=True)
 
     def __str__(self):
-        return '{}, {}'.format(self.id, self.post.title)
+        return f'{self.id}, {self.post.title}'
