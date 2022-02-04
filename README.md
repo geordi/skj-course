@@ -1,6 +1,4 @@
-# Skriptovací jazyky (Scripting Languages Course)
-
-See also [english version](README_en.md) of this page.
+# Skriptovací jazyky (English version: [Scripting Languages Course](README_en.md))
 
 Na této stránce naleznete informace pro přednášky a cvičení předmětu Skriptovací jazyky.
 
