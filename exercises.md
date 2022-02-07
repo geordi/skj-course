@@ -57,7 +57,7 @@ Scoring exercises on the topics discussed in the first lecture + the content of 
 
 <!--The study material is the text stated at the beginning of the page.-->
 
-## Exercise 3
+## Cvičení 3
 
 Procvičíme si práci se soubory, použití různých parametrů funkcí, generátory, apod.
 
@@ -139,6 +139,11 @@ Exercise on topics from all previous exercises.
 
 -->
 
+## Cvičení 13
+
++ Závěrečný test
+
+
 ## Cvičení 14
 
-Odevzdávání projektů.
+Odevzdávání projektů + oprava závěrečného testu.

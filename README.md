@@ -108,7 +108,7 @@ Pro studenty kombinované formy studia jsou plohy dostupné v systému [Kelvin](
 
 ## Projekt
 
-Termín odevzdávání: na cvičeních v zápočtovém týdnu od 10.5.2021 do 14.5.2021.
+Termín odevzdávání: na cvičeních v zápočtovém týdnu od 9.5.2022 do 13.5.2022.
 
 Pomocí Django frameworku naprogramujte webovou aplikaci, která bude splňovat následující kritéria
 (můžete využít již hotového projektu do předmětu DBS II s tím, že jeho návrh použijete jako základ Vaší Django aplikace):
