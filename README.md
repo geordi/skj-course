@@ -37,7 +37,7 @@ Závěrečný test proběhne ve zkouškovém období na učebnách. Termíny bud
 
 <table>
 <tr>
-    <th>Shrnutí</th><th>MAX bodů</th><th>MIN bodů</th><th>Poznámka</th>
+    <th></th><th>MAX bodů</th><th>MIN bodů</th><th>Poznámka</th>
 </tr>
 <tr>
     <td>Vypracování úloh na cvičeních</td><td>30 (40)</td><td>10</td><td>Bodování uvedeno v textu výše.</td>
@@ -46,7 +46,7 @@ Závěrečný test proběhne ve zkouškovém období na učebnách. Termíny bud
     <td>Projekt</td><td>30</td><td>10</td><td>Samostatná práce.</td>
 </tr>
 <tr>
-    <td>Final test</td><td>40</td><td>15</td>
+    <td>Závěrečný test</td><td>40</td><td>15</td>
 </tr>
 </table>
 
@@ -102,7 +102,7 @@ Pro zájemce o další informace z oblasti použití Django, doporučuji knihu [
 
 ## Kombinované studium
 
-Pro studenty kombinované formy studia jsou plohy dostupné v systému [Kelvin](https://kelvin.cs.vsb.cz).
+Pro studenty kombinované formy studia jsou úlohy dostupné v systému [Kelvin](https://kelvin.cs.vsb.cz).
 <!-- Termín odevzdání jednotlivých úkolů (budou se postupně objevovat na této stránce) je ideálně do zápočtového týdne. Není však problém odevzdat úkoly a vyplnit test i v pozdějším termínu (ideálně tak do 2. týdne zkouškového období).
 -->
 
