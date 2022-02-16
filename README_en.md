@@ -40,7 +40,7 @@ The final test will take place in the examination period and you schedule will b
 
 <table>
 <tr><th>Task type</th><th>MAX points</th><th>MIN points</th><th>Note</th></tr>
-<tr><td>Elaboration of tasks</td><td>30 (40)</td><td>6</td><td>Scoring mentioned above.</td></tr>
+<tr><td>Elaboration of tasks</td><td>30 (40)</td><td>10</td><td>Scoring mentioned above.</td></tr>
 <tr><td>Submission of the project in Django</td><td>30</td><td>10</td><td></td></tr>
 <tr><td>Final test</td><td>40</td><td>15</td></tr>
 </table>
@@ -106,7 +106,7 @@ Date	Time
 
 
 ## Project assignment for full-time students
-Deadline for submitting: at seminars in the week from 10.5.2021 to 14.5.2021
+Deadline for submitting: at seminars in the week from 9.5.2022 to 13.5.2022.
 
 Using the Django framework, program a simple web application that meets the following criteria:
 
