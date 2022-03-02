@@ -110,18 +110,18 @@ Deadline for submitting: at seminars in the week from 9.5.2022 to 13.5.2022.
 
 Using the Django framework, program a simple web application that meets the following criteria:
 
-- Your application will contain at least 6 models (team of 2 students) or 3 models (team of 1 student), which will be interrelated.
+- Your application will contain at least 6 models, which will be connected using foreign keys.
 - Create adequate administrative interfaces for models.
-- Your application will contain at least 12 view (team of 2 students) or 6 view (team of 1 student) and the associated URL that will work with the models.
-- Your application will pass content to templates (you will implement 12 templates (team of 2 students) or 6 templates (team of 1 student).
-- Your application will contain at least 6 forms (team of 2 students) or 3 forms (team of 1 student) (either model-bound or your own).
+- Your application will contain at least 12 view and the associated URLs that will work with the models.
+- Your application will pass content to templates (you will implement 12 templates).
+- Your application will contain at least 6 forms (either model-bound or your own).
 - Resulting application should form a logical concept, i.e. individual pages will be linked to each other.
 - Blogging and forum apps are not allowed as we did them in lectures.
 - A gas station project is not acceptable as we did it at the exercises.
 - Your application does not have to contain graphic elements and CSS styles.
-- Your app doesn't have contain spatial data (GeoDjango).
+- Your app doesn't have contain spatial data (GeoDjango), but you can, of course, use it if you want to.
 - Your application must not contain generic views.
-- The application can be eg your very simple implementation of Twitter service, part of the school information system (granting credit to students), some part of the blue page (Facebook), etc.
+- The application can be e.g. your very simple implementation of Twitter service, part of the school information system (granting credit to students), some part of the blue page (Facebook), etc.
 
 <!--
 ## Distance Students Tasks
