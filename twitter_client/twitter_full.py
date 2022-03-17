@@ -2,6 +2,7 @@ import json
 import re
 import urllib.request, urllib.error, urllib.parse
 import tc_auth
+from dataclasses import dataclass
 
 PINK = '\033[95m'
 RESET = '\033[0m'
@@ -10,30 +11,26 @@ GREEN = '\033[92m'
 WARNING = '\033[93m'
 RED = '\033[91m'
 
-class Tweet(object):
+@dataclass
+class Tweet:
 
-    def __init__(self, from_user, text, geo):
-        self.from_user = from_user
-        self.text = text
-        self.geo = geo
+    from_user : str
+    text : str
 
     def __repr__(self):
-        tags = re.findall(r"\#\w+", self.text)
+        tags = re.findall(r'\#\w+', self.text)
         text = self.text
         for tag in tags:
             text = text.replace(tag, GREEN+tag+RESET)
-        out = "{0}, Text: {1}, Geo: {2}".format(self.from_user, text, self.geo)
-        return PINK + "From: " + RESET + out
+        return f'{PINK}{self.from_user}:{RESET} {text}'
 
-class Twitter(object):
+class Twitter:
 
     base_search_url = 'https://api.twitter.com/1.1/search/tweets.json?q={}&count=5&tresult_type=popular'
 
     def __init__(self, *search):
         self.client = tc_auth.twitter_auth()
-        
         self.search = search
-        self.decoded_json = None
 
     def create_search_url(self):
         escaped_search = []
@@ -55,15 +52,11 @@ class Twitter(object):
 
         statuses = self.decoded_json['statuses']
 
-        tweets = []
         for status in statuses:
             from_user = status['user']['name']
             text = status['text']
-            geo = status['geo']
-            tweet = Tweet(from_user, text, geo)
-            tweets.append(tweet)
-        return tweets
 
+            yield Tweet(from_user, text)
 
 t = Twitter('#django', '#python')
 tweets = t.get_tweets()
