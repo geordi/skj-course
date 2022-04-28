@@ -34,6 +34,9 @@ Závěrečný test proběhne na cvičeních v předposledním týdnu semestru, t
 Ve zkouškovém období pak proběhne oprava (můžete přijít i vícekrát).
 Termíny budou vypsány v [EdISonu](https://edison.vsb.cz).
 
+Test bude sestávat z programovacích úloh, které se budou odevzdávat do systému [Kelvin](https://kelvin.cs.vsb.cz).
+Nebude se požadovat znalost Django frameworku nebo jiných speciálních knihoven.
+Povolený zdroj informací je [dokumentace k jazyku Python](https://docs.python.org/3.8/) a [studijní opora](http://mrl.cs.vsb.cz/people/gaura/skj/skripta.pdf).
 
 ### Shrnutí
 
