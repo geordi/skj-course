@@ -30,7 +30,9 @@ Proběhne také závěrečný test, který musíte absolvovat. Za tento test mů
 
 ### Závěrečný test
 
-Závěrečný test proběhne ve zkouškovém období na učebnách. Termíny budou vypsány v [EdISonu](https://edison.vsb.cz).
+Závěrečný test proběhne na cvičeních v předposledním týdnu semestru, tj. od 2. 5. do 6. 5. 2022.
+Ve zkouškovém období pak proběhne oprava (můžete přijít i vícekrát).
+Termíny budou vypsány v [EdISonu](https://edison.vsb.cz).
 
 
 ### Shrnutí
