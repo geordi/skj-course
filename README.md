@@ -3,6 +3,11 @@
 Na této stránce naleznete informace pro přednášky a cvičení předmětu Skriptovací jazyky.
 
 
+## Přednášky
+
+Informace ohledně přednášek naleznete na [samostatné stránce](lectures.md).
+
+
 ## Cvičení
 
 Informace ohledně cvičení naleznete na [samostatné stránce](exercises.md) nebo stránce Vašeho cvičícího.
