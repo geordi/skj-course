@@ -19,4 +19,4 @@ Většina témat je k dispozici online na [YT](https://www.youtube.com/@jgatvsb2
 
 ## Přednáška 5
 
-- [YouTube](https://www.youtube.com/watch?v=k_NiT4ghQr4&list=PL6QCBtgT0B95ji4HeTNkVYSUAga73Onx3)https://www.youtube.com/watch?v=k_NiT4ghQr4&list=PL6QCBtgT0B95ji4HeTNkVYSUAga73Onx3)
+- [YouTube](https://www.youtube.com/watch?v=k_NiT4ghQr4&list=PL6QCBtgT0B95ji4HeTNkVYSUAga73Onx3)
