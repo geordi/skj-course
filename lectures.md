@@ -27,3 +27,10 @@ Většina témat je k dispozici online na [YT](https://www.youtube.com/@jgatvsb2
 ## Přednáška 5
 
 - [YouTube](https://www.youtube.com/watch?v=k_NiT4ghQr4&list=PL6QCBtgT0B95ji4HeTNkVYSUAga73Onx3)
+
+
+## Přednáška 6
+
+- [Zrdojové kódy](django_framework/blog)
+- [YouTube](https://www.youtube.com/watch?v=_rka931pePE&list=PL6QCBtgT0B97xJIV4khohm2jb3innxf1J)
+
