@@ -35,9 +35,10 @@ Proběhne také závěrečný test, který musíte absolvovat. Za tento test mů
 
 ### Závěrečný test
 
-Závěrečný test proběhne na cvičeních v předposledním týdnu semestru, tj. od 1. 5. do 5. 5. 2023.
-Ve zkouškovém období pak proběhne oprava (můžete přijít i vícekrát).
+Závěrečný test proběhne na ve zkouškovém období.
+Předtermín proběhne 9. 5. 2023.
 Termíny budou vypsány v [EdISonu](https://edison.vsb.cz).
+Ve zkouškovém období také proběhne oprava (můžete přijít i vícekrát).
 
 Test bude sestávat z programovacích úloh, které se budou odevzdávat do systému [Kelvin](https://kelvin.cs.vsb.cz).
 Nebude se požadovat znalost Django frameworku nebo jiných speciálních knihoven.
