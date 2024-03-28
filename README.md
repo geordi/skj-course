@@ -22,21 +22,31 @@ Jsou též k dispozici [zdrojové kódy ke cvičením](labs).
 
 ## Hodnocení
 
-V průběhu semestru dostanete na cvičeních zadáno 8 úloh, které samostatně vypracujete pod dohledem cvičícího na daném cvičení. Samozřejmě se budete moci cvičícího doptat na případné nejasnosti. Tyto úlohy se budou týkat témat probraných na přednáškách. K jednotlivým cvičením budete též mít k dispozici krátký text vysvětlující danou problematiku. Za každé cvičení budete moci získat až 5 bodů. Celkové bodové ohodnocení se Vám bude počítat ze 6ti nejlepších výsledků, kterých na cvičeních dosáhnete (maximálně tedy 30 bodů). Toto je nastaveno z důvodů, že můžete onemocnět a tudíž se nebudete moci dostavit na cvičení apod.
+V průběhu semestru dostanete zadáno 8 úloh na cvičeních nebo jako domácí ukoly, které **samostatně** vypracujete.
+Samozřejmě se budete moci cvičícího doptat na případné nejasnosti.
+Tyto úlohy se budou týkat témat probraných na přednáškách.
+K jednotlivým cvičením budete též mít k dispozici krátký text vysvětlující danou problematiku.
+Za každé cvičení nebo úkol budete moci získat až 5 bodů.
+Celkové bodové ohodnocení se Vám bude počítat ze 6ti nejlepších výsledků, kterých na cvičeních dosáhnete (maximálně tedy 30 bodů).
+Toto je nastaveno z důvodů, že můžete onemocnět a tudíž se nebudete moci dostavit na cvičení apod.
 
-Dále budete mít zadánu jednu domácí úlohu. Zadání úlohy bude vystaveny na této stránce a budete ní informováni na přednášce a cvičeních.
+Dále budete mít zadán projekt.
+Specifikace projektu bude vystaveno na této stránce a budete ní informováni na přednášce a cvičeních.
 Vašim úkolem je tuto úlohu samostatně vypracovat a v zadaném termínu předvést na cvičení svému cvičícímu, který ohodnotí funkčnost řešení a také způsob, jakým je úloha naprogramována.
-Úloha je za 30 bodů. Pokud úlohu neodevzdáte v zadaném termínu, bude za každý započatý týden po řádném termínu odevzdání odečteno 8 bodů z maximálního přídělu.
-Úkol je povinný! Musíte jej odevzdat!
+Úloha je za 30 bodů. Na pozdější odevzdání nebude brán zřetel. Projekt se odevzdává do systému [Kelvin](https://kelvin.cs.vsb.cz).
+<!--Pokud úlohu neodevzdáte v zadaném termínu, bude za každý započatý týden po řádném termínu odevzdání odečteno 8 bodů z maximálního přídělu.-->le
+Projekt je povinný a musíte jej odevzdat!
 Z tohoto úkolu musíte získat alespoň 10 bodů.
 
-Proběhne také závěrečný test, který musíte absolvovat. Za tento test můžete získat až 40 bodů. Minimálně musíte získat 15 bodů.
+Proběhne také závěrečný test, který musíte absolvovat.
+Za tento test můžete získat až 40 bodů.
+Minimálně musíte získat 15 bodů.
 
 
 ### Závěrečný test
 
 Závěrečný test proběhne na ve zkouškovém období.
-Předtermín proběhne 9. 5. 2023.
+<!--Předtermín proběhne 9. 5. 2023.-->
 Termíny budou vypsány v [EdISonu](https://edison.vsb.cz).
 Ve zkouškovém období také proběhne oprava (můžete přijít i vícekrát).
 
@@ -52,7 +62,7 @@ Povolený zdroj informací je [dokumentace k jazyku Python](https://docs.python.
     <th></th><th>MAX bodů</th><th>MIN bodů</th><th>Poznámka</th>
 </tr>
 <tr>
-    <td>Vypracování úloh na cvičeních</td><td>30 (40)</td><td>10</td><td>Bodování uvedeno v textu výše.</td>
+    <td>Vypracování úloh na cvičeních a DÚ</td><td>30 (40)</td><td>10</td><td>Bodování uvedeno v textu výše.</td>
 </tr>
 <tr>
     <td>Projekt</td><td>30</td><td>10</td><td>Samostatná práce.</td>
@@ -63,11 +73,12 @@ Povolený zdroj informací je [dokumentace k jazyku Python](https://docs.python.
 </table>
 
 
+<!--
 ## Komunikace
 
 Pro společnou komunikaci je pro Vás vytvořena místnost na školním [Matrix serveru](https://matrix.cs.vsb.cz).
 Můžete také komunikovat napřímo s přednášejícím nebo cvičícími.
-
+-->
 
 ## Odevzdávání úloh
 
@@ -93,6 +104,8 @@ Velice pěkný text je také z kurzu [MIT 6.01](https://ocw.mit.edu/courses/elec
 * [Python documentation](http://docs.python.org/index.html)
 
 <!--An interesting online interactive course found at Codeacademy .-->
+
+* Začátečnické informace o jazyce můžete nalézt v [kurzu PyLadies](https://pyladies.cz/course.html).
 
 * Pro základy programování můžete využít knihu [Think Python](http://www.greenteapress.com/thinkpython/), kterou si můžete stáhnout zdarma.
 
@@ -120,10 +133,10 @@ Pro studenty kombinované formy studia jsou úlohy dostupné v systému [Kelvin]
 
 ## Projekt
 
-Termín odevzdávání: na cvičeních v zápočtovém týdnu od 8.5.2023 do 12.5.2023.
+Termín odevzdávání: na cvičeních v zápočtovém týdnu od 13.5.2024 do 17.5.2024.
 
 Pomocí Django frameworku naprogramujte webovou aplikaci, která bude splňovat následující kritéria
-(můžete využít již hotového projektu do předmětu DBS II s tím, že jeho návrh použijete jako základ Vaší Django aplikace):
+(můžete využít již hotového projektu do předmětu DS II s tím, že jeho návrh použijete jako základ Vaší Django aplikace):
 
 * aplikace bude obsahovat alespoň 6 modelů, které budou vzájemně provázány vazbou
 * k modelům vytvořte adekvátní administrativní rozhraní
@@ -137,7 +150,7 @@ Pomocí Django frameworku naprogramujte webovou aplikaci, která bude splňovat 
 * aplikace nemusí obsahovat geografickou složku
 * aplikace nesmí obsahovat generické view
 
-Aplikace může být např. Vaše velmi jednoduchá implementace služby Twitter, část školního informačního systému, nějaká část modré stránky (Facebook), apod.
+Aplikace může být např. Vaše velmi jednoduchá implementace služby Twitter, část školního informačního systému, základní GitHub, apod.
 
 
 <!--
