@@ -3,11 +3,15 @@ Script for the first laboratory.
 Add code by following instructions of the teacher.
 """
 
-def add(a, b):
+from typing import Any, List
+
+
+def add(a: Any, b: Any) -> Any:
     """Adds parameters."""
     return a + b
 
-def what_number(number):
+
+def what_number(number: int|float) -> str:
     """Returns string positive/zero/negative specifying
     value of the number."""
     # if <expr>:
@@ -15,40 +19,48 @@ def what_number(number):
     # else:
     pass
 
-def fact(n):
+
+def fact(n: int) -> int:
     """Returns factorial of the n using recursion."""
     pass
 
-def sum_of_numbers(list_of_numbers):
+
+def sum_of_numbers(list_of_numbers: List[int|float]) -> int|float:
     """Returns sum of the numbers in the list."""
     pass
 
-def ship_name(fleet, designated_no):
+
+def ship_name(fleet: dict, designated_no: Any) -> Any:
     """Return ship's name for specified designated number
     from the fleet."""
     # has dictionary a key? Use syntax: key in dictionary
     pass
 
-def dividable_by(lst, divisor):
+
+def dividable_by(lst: List[Any], divisor: int|float) -> None:
     """Prints first integer in the lst that is
     dividable by specified divisor."""
     # types: int, float, str, list, tuble, dict
     # get type of a variable: type(variable_name)
     pass
 
-def how_many_5(numbers):
+
+def how_many_5(numbers: List[int|float]) -> int:
     """Returns number of numbers greater than 5."""
     # Modify example to take argument that specifies threshold
     pass
 
-def gen_list_gt(lst, no):
+
+def gen_list_gt(lst: List[int|float], no: int|float) -> List[int|float]:
     """Returns list with numbers greater than no."""
     #syntax: [ item for item in lst if_condition ]
     pass
 
-def fact_while(n):
+
+def fact_while(n: int) -> int:
     """Returns factorial of the n using while loop."""
     pass
+
 
 print(add(1, 3))
 #print add([1, 2, 3], [4, 5, 6])

@@ -3,11 +3,15 @@ Toto je skript pro 1. cviceni.
 Doplnte kod dle pokynu cviciciho.
 """
 
-def add(a, b):
+from typing import Any, List
+
+
+def add(a: Any, b: Any) -> Any:
     """Adds parameters."""
     return a + b
 
-def what_number(number):
+
+def what_number(number: int|float) -> str:
     """Returns string positive/zero/negative specifying
     value of the number."""
     # if <expr>:
@@ -20,24 +24,28 @@ def what_number(number):
     else:
         return "negative"
 
-def fact(n):
+
+def fact(n: int) -> int:
     """Returns factorial of the n using recursion."""
     if n == 0 or n == 1:
         return 1
     else: return n*fact(n-1)
 
-def sum_of_numbers(list_of_numbers):
+
+def sum_of_numbers(list_of_numbers: List[int|float]) -> int|float:
     """Returns sum of the numbers in the list."""
     return sum(list_of_numbers)
 
-def ship_name(fleet, designated_no):
+
+def ship_name(fleet: dict, designated_no: Any) -> Any:
     """Return ship's name for specified designated number
     from the fleet."""
     # has dictionary a key? Use syntax: key in dictionary
     if designated_no in fleet:
         return fleet[designated_no]
 
-def dividable_by(lst, divisor):
+
+def dividable_by(lst: List[Any], divisor: int|float) -> None:
     """Prints first integer in the lst that is
     dividable by specified divisor."""
     # types: int, float, str, list, tuble, dict
@@ -47,29 +55,33 @@ def dividable_by(lst, divisor):
         if type(x) != int:
             continue
         if not x % divisor:
-            print 'Integer dividable by %d is: %d' % (divisor, x)
+            print(f'Integer dividable by {divisor} is: {x}')
             break
     """
     dividable_integer = [ x for x in lst if type(x) is int and not x % divisor ][0]
-    print 'Integer dividable by %d is: %d' % (divisor, dividable_integer)
+    print(f'Integer dividable by {divisor} is: {dividable_integer}')
 
-def how_many_5(numbers):
+
+def how_many_5(numbers: List[int|float]) -> int:
     """Returns number of numbers greater than 5."""
     # Modify example to take argument that specifies threshold
     return sum( 1 for number in numbers if number > 5 )
 
-def gen_list_gt(lst, no):
+
+def gen_list_gt(lst: List[int|float], no: int|float) -> List[int|float]:
     """Returns list with numbers greater than no."""
     #syntax: [ item for item in lst if_condition ]
     return [ item for item in lst if item > no ]
 
-def fact_while(n):
+
+def fact_while(n: int) -> int:
     """Returns factorial of the n using while loop."""
     s = 1
     while n > 1:
         s *= n
         n -= 1
     return s
+
 
 print(add(1, 3))
 #print(add([1, 2, 3], [4, 5, 6]))

@@ -3,11 +3,15 @@ Script for the first laboratory.
 Add code by following instructions of the teacher.
 """
 
-def add(a, b):
+from typing import Any, List
+
+
+def add(a: Any, b: Any) -> Any:
     """Adds parameters."""
     return a + b
 
-def what_number(number):
+
+def what_number(number: int|float) -> str:
     """Returns string positive/zero/negative specifying
     value of the number."""
     # if <expr>:
@@ -20,26 +24,55 @@ def what_number(number):
     else:
         return "negative"
 
-def sum_of_numbers(numbers):
-    """Returns sum of the numbers in the list."""
-    return sum(numbers)
 
-def ship_name(fleet, designated_no):
+def fact(n: int) -> int:
+    """Returns factorial of the n using recursion."""
+    if n == 0 or n == 1:
+        return 1
+    else: return n*fact(n-1)
+
+
+def sum_of_numbers(list_of_numbers: List[int|float]) -> int|float:
+    """Returns sum of the numbers in the list."""
+    return sum(list_of_numbers)
+
+
+def ship_name(fleet: dict, designated_no: Any) -> Any:
     """Return ship's name for specified designated number
     from the fleet."""
     # has dictionary a key? Use syntax: key in dictionary
     if designated_no in fleet:
         return fleet[designated_no]
 
-def how_many_5(numbers):
+
+def dividable_by(lst: List[Any], divisor: int|float) -> None:
+    """Prints first integer in the lst that is
+    dividable by specified divisor."""
+    # types: int, float, str, list, tuble, dict
+    # get type of a variable: type(variable_name)
+    """
+    for x in lst:
+        if type(x) != int:
+            continue
+        if not x % divisor:
+            print(f'Integer dividable by {divisor} is: {x}')
+            break
+    """
+    dividable_integer = [ x for x in lst if type(x) is int and not x % divisor ][0]
+    print(f'Integer dividable by {divisor} is: {dividable_integer}')
+
+
+def how_many_5(numbers: List[int|float]) -> int:
     """Returns number of numbers greater than 5."""
     # Modify example to take argument that specifies threshold
     return sum( 1 for number in numbers if number > 5 )
 
-def gen_list_gt(lst, no):
+
+def gen_list_gt(lst: List[int|float], no: int|float) -> List[int|float]:
     """Returns list with numbers greater than no."""
     #syntax: [ item for item in lst if_condition ]
     return [ item for item in lst if item > no ]
+
 
 print(add(1, 3))
 #print(add([1, 2, 3], [4, 5, 6]))
