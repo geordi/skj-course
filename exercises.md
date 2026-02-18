@@ -39,11 +39,6 @@ Na cvičení budeme probírat níže uvedená témata:
     * `while`
   * Definice funkce
 
-Doporučeno k procvičení:
-
-Skript z akademického roku 2011/2012, který navíc obsahuje rekurzi: [ex_01_extended.py](labs/ex_01_extended.py) (řešení: [cv1_labs_extended_full.py](cv1_labs_extended_full.py)).
-
-<!--Solution: cv1_labs_extended_full.py-->
 
 ## Cvičení 2
 
