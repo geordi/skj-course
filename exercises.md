@@ -139,11 +139,12 @@ Exercise on topics from all previous exercises.
 
 -->
 
+## Cvičení 12
+
+<!--+ Závěrečný test-->
+
+
 ## Cvičení 13
 
-+ Závěrečný test
-
-
-## Cvičení 14
-
-Odevzdávání projektů + oprava závěrečného testu.
+Odevzdávání projektů
+<!-- + oprava závěrečného testu.-->
