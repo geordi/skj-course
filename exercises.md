@@ -13,7 +13,7 @@ Na cvičení budeme probírat níže uvedená témata:
 * Dynamická typovost
 * Garbage collector
 
-*Pracovní prostředí:
+* Pracovní prostředí:
   * ipython
   * Magic command `%run`, `%hist`
 
