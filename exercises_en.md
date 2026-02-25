@@ -35,7 +35,13 @@ We will discuss the following topics in the exercise:
   * Function definition
 
 
-### Exercise 2
+## Lab 2
+
+We will practice collections, file handling, the use of various function parameters, generators, etc.
+
+The script where you can gradually add your code is available here: [ex_02.py](labs/ex_02.py).The script for working with files is available here: [ex_02_files.py](labs/ex_02_files.py).
+An additional file, [cities.txt](labs/cities.txt), is also required for this script.
+
 
 <!--
 Scoring exercises on the topics discussed in the first lecture + the content of the first exercise where simple function calls were used.
